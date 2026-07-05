@@ -1,0 +1,3002 @@
+{
+  "checkpoint": "checkpoints/ablation_no_pn/cliptsa_ucf_best.pkl",
+  "num_segments": 32,
+  "pools": {
+    "mean": {
+      "model_level": {
+        "frame_level_roc_auc": 0.8183580957737611,
+        "frame_level_average_precision": 0.22837390587941228,
+        "video_level_roc_auc_max": 0.9347142857142857,
+        "video_level_roc_auc_topk_mean": 0.938857142857143,
+        "decision_gate": {
+          "threshold_max": 0.5472,
+          "threshold_topk_mean": 0.4576,
+          "tp": 134,
+          "fp": 36,
+          "tn": 114,
+          "fn": 6,
+          "precision": 0.788235294117647,
+          "recall": 0.9571428571428572,
+          "f1": 0.864516129032258,
+          "accuracy": 0.8551724137931035
+        }
+      },
+      "summary_main": {
+        "mode": "peak",
+        "top_k": 3,
+        "context": 1,
+        "n_videos": 140,
+        "mean_recall": 0.3422559345546349,
+        "mean_precision": 0.23570929462711082,
+        "mean_f1": 0.2369605083762476,
+        "mean_compression": 0.24857948601720564
+      },
+      "ablations": [
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.3422559345546349,
+          "mean_precision": 0.23570929462711082,
+          "mean_f1": 0.2369605083762476,
+          "mean_compression": 0.24857948601720564,
+          "ablation": "select_mode"
+        },
+        {
+          "mode": "topk",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.23334757963833322,
+          "mean_precision": 0.22066315695968702,
+          "mean_f1": 0.18921831091967153,
+          "mean_compression": 0.1763038171725695,
+          "ablation": "select_mode"
+        },
+        {
+          "mode": "threshold",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.8951509558999234,
+          "mean_precision": 0.20151329598210327,
+          "mean_f1": 0.29786108190978244,
+          "mean_compression": 0.8571067513847077,
+          "ablation": "select_mode"
+        },
+        {
+          "mode": "topk",
+          "top_k": 1,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.09824426361380628,
+          "mean_precision": 0.18921254282240849,
+          "mean_f1": 0.11316082184828997,
+          "mean_compression": 0.09163576897765208,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "topk",
+          "top_k": 2,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.16711977088670754,
+          "mean_precision": 0.2077068600441892,
+          "mean_f1": 0.15578526724786748,
+          "mean_compression": 0.13258478821313555,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "topk",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.23334757963833322,
+          "mean_precision": 0.22066315695968702,
+          "mean_f1": 0.18921831091967153,
+          "mean_compression": 0.1763038171725695,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "topk",
+          "top_k": 5,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.3971248439641275,
+          "mean_precision": 0.2400025127649752,
+          "mean_f1": 0.25551793114241833,
+          "mean_compression": 0.2680000068556305,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 0,
+          "n_videos": 140,
+          "mean_recall": 0.12368396029791097,
+          "mean_precision": 0.2318717187686993,
+          "mean_f1": 0.13842958413880505,
+          "mean_compression": 0.09382916938018018,
+          "ablation": "context"
+        },
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.3422559345546349,
+          "mean_precision": 0.23570929462711082,
+          "mean_f1": 0.2369605083762476,
+          "mean_compression": 0.24857948601720564,
+          "ablation": "context"
+        },
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 2,
+          "n_videos": 140,
+          "mean_recall": 0.46877660199548044,
+          "mean_precision": 0.2339524938516046,
+          "mean_f1": 0.26536982061265846,
+          "mean_compression": 0.34051329226817717,
+          "ablation": "context"
+        }
+      ],
+      "tradeoff_curve": [
+        {
+          "k": 1,
+          "ours_recall": 0.09824426361380628,
+          "ours_compression": 0.09163576897765208,
+          "random_recall": 0.09366049609333614,
+          "random_compression": 0.09156105786732256,
+          "uniform_recall": 0.009952420084115083,
+          "uniform_compression": 0.0628746709364517
+        },
+        {
+          "k": 2,
+          "ours_recall": 0.16711977088670754,
+          "ours_compression": 0.13258478821313555,
+          "random_recall": 0.17819812716324493,
+          "random_compression": 0.1780025754631867,
+          "uniform_recall": 0.023222420161843317,
+          "uniform_compression": 0.12507716661657398
+        },
+        {
+          "k": 3,
+          "ours_recall": 0.23334757963833322,
+          "ours_compression": 0.1763038171725695,
+          "random_recall": 0.2617898629219139,
+          "random_compression": 0.25883910365461255,
+          "uniform_recall": 0.13946343332789043,
+          "uniform_compression": 0.21886536611923535
+        },
+        {
+          "k": 4,
+          "ours_recall": 0.3322411434279286,
+          "ours_compression": 0.22095385151183172,
+          "random_recall": 0.33908305035831104,
+          "random_compression": 0.33379953174215077,
+          "uniform_recall": 0.22343419667997605,
+          "uniform_compression": 0.31271446536823455
+        },
+        {
+          "k": 5,
+          "ours_recall": 0.3971248439641275,
+          "ours_compression": 0.2680000068556305,
+          "random_recall": 0.40607199695473734,
+          "random_compression": 0.40286709678439425,
+          "uniform_recall": 0.31630211537537783,
+          "uniform_compression": 0.40643127896496123
+        },
+        {
+          "k": 6,
+          "ours_recall": 0.43919104026259287,
+          "ours_compression": 0.3061772700465242,
+          "random_recall": 0.4791837852938755,
+          "random_compression": 0.46707669181468997,
+          "uniform_recall": 0.5010297995782024,
+          "uniform_compression": 0.49999845012534144
+        },
+        {
+          "k": 8,
+          "ours_recall": 0.5271158629028548,
+          "ours_compression": 0.3767365987924979,
+          "random_recall": 0.5969487973579649,
+          "random_compression": 0.583992665610645,
+          "uniform_recall": 0.6864002494592704,
+          "uniform_compression": 0.6875320739201332
+        },
+        {
+          "k": 10,
+          "ours_recall": 0.6090353963073294,
+          "ours_compression": 0.46025572448968566,
+          "random_recall": 0.6909228804378389,
+          "random_compression": 0.6810438521323371,
+          "uniform_recall": 0.8261531169484478,
+          "uniform_compression": 0.8751035395699187
+        },
+        {
+          "k": 12,
+          "ours_recall": 0.6712145277708191,
+          "ours_compression": 0.5183747655496092,
+          "random_recall": 0.7714974234928375,
+          "random_compression": 0.761252572376907,
+          "uniform_recall": 1.0,
+          "uniform_compression": 1.0
+        },
+        {
+          "k": 16,
+          "ours_recall": 0.809880365097403,
+          "ours_compression": 0.6500312232177146,
+          "random_recall": 0.8855239648500733,
+          "random_compression": 0.8775517831364841,
+          "uniform_recall": 1.0,
+          "uniform_compression": 1.0
+        }
+      ],
+      "per_video_main": [
+        {
+          "stem": "Abuse028_x264",
+          "class": "Abuse",
+          "n_selected_seg": 3,
+          "recall": 0.7368421052631579,
+          "precision": 0.15864022662889518,
+          "f1": 0.26107226107226106,
+          "compression": 0.25
+        },
+        {
+          "stem": "Abuse030_x264",
+          "class": "Abuse",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2182642487046632
+        },
+        {
+          "stem": "Arrest001_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.7408637873754153,
+          "precision": 0.37542087542087543,
+          "f1": 0.49832402234636874,
+          "compression": 0.2502106149957877
+        },
+        {
+          "stem": "Arrest007_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.22345483359746435,
+          "precision": 0.17938931297709923,
+          "f1": 0.1990119971771348,
+          "compression": 0.25
+        },
+        {
+          "stem": "Arrest024_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.020942408376963352,
+          "precision": 0.048458149779735685,
+          "f1": 0.029245596543702228,
+          "compression": 0.25020666850372003
+        },
+        {
+          "stem": "Arrest030_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.43157262905162064,
+          "precision": 0.33287037037037037,
+          "f1": 0.3758494511238891,
+          "compression": 0.24994214302244852
+        },
+        {
+          "stem": "Arrest039_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24995263656457214
+        },
+        {
+          "stem": "Arson007_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.18761996161228406
+        },
+        {
+          "stem": "Arson009_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2489905787348587
+        },
+        {
+          "stem": "Arson010_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2814181703070592
+        },
+        {
+          "stem": "Arson011_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.22287047841306884,
+          "precision": 0.6895306859205776,
+          "f1": 0.33686067019400356,
+          "compression": 0.21879936808846762
+        },
+        {
+          "stem": "Arson016_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.36477987421383645,
+          "precision": 0.6473214285714286,
+          "f1": 0.4666130329847144,
+          "compression": 0.24958217270194985
+        },
+        {
+          "stem": "Arson018_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2494061757719715
+        },
+        {
+          "stem": "Arson022_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Arson035_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.15614617940199335,
+          "precision": 0.1309192200557103,
+          "f1": 0.1424242424242424,
+          "compression": 0.24982602644398053
+        },
+        {
+          "stem": "Arson041_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.23687752355316286,
+          "precision": 0.4282238442822384,
+          "f1": 0.3050259965337955,
+          "compression": 0.2189664358018114
+        },
+        {
+          "stem": "Assault006_x264",
+          "class": "Assault",
+          "n_selected_seg": 3,
+          "recall": 0.2928664447981479,
+          "precision": 1.0,
+          "f1": 0.4530498041410185,
+          "compression": 0.25
+        },
+        {
+          "stem": "Assault010_x264",
+          "class": "Assault",
+          "n_selected_seg": 3,
+          "recall": 0.7142857142857143,
+          "precision": 0.16043956043956045,
+          "f1": 0.262024407753051,
+          "compression": 0.28126352228472523
+        },
+        {
+          "stem": "Assault011_x264",
+          "class": "Assault",
+          "n_selected_seg": 3,
+          "recall": 0.2150170648464164,
+          "precision": 0.25149700598802394,
+          "f1": 0.2318307267709292,
+          "compression": 0.21896853146853146
+        },
+        {
+          "stem": "Burglary005_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.17132505175983437,
+          "f1": 0.29253203711886877,
+          "compression": 0.24996765428904127
+        },
+        {
+          "stem": "Burglary017_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.401330376940133,
+          "precision": 0.34215500945179583,
+          "f1": 0.3693877551020408,
+          "compression": 0.2503549455750118
+        },
+        {
+          "stem": "Burglary018_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25066666666666665
+        },
+        {
+          "stem": "Burglary021_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.2632398753894081,
+          "precision": 0.3912037037037037,
+          "f1": 0.31471135940409684,
+          "compression": 0.2810670136629798
+        },
+        {
+          "stem": "Burglary024_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.7190435525192144,
+          "precision": 0.9334811529933481,
+          "f1": 0.8123492522913652,
+          "compression": 0.25020804438280164
+        },
+        {
+          "stem": "Burglary032_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.07955018742190754,
+          "precision": 0.04300833145687908,
+          "f1": 0.05583162817889506,
+          "compression": 0.28116492560937006
+        },
+        {
+          "stem": "Burglary033_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.5645756457564576,
+          "precision": 0.4857142857142857,
+          "f1": 0.5221843003412969,
+          "compression": 0.25019857029388404
+        },
+        {
+          "stem": "Burglary035_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24987654320987654
+        },
+        {
+          "stem": "Burglary037_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.2556657223796034,
+          "precision": 0.7520833333333333,
+          "f1": 0.38160676532769555,
+          "compression": 0.25
+        },
+        {
+          "stem": "Burglary061_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24994438264738597
+        },
+        {
+          "stem": "Burglary076_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.18749516366168847
+        },
+        {
+          "stem": "Burglary079_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.9881796690307328,
+          "precision": 0.9005847953216374,
+          "f1": 0.9423510466988727,
+          "compression": 0.21874368814380935
+        },
+        {
+          "stem": "Burglary092_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2512
+        },
+        {
+          "stem": "Explosion002_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6356073211314476,
+          "precision": 0.38085742771684944,
+          "f1": 0.47630922693266836,
+          "compression": 0.2499377024669823
+        },
+        {
+          "stem": "Explosion004_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28180862250262884
+        },
+        {
+          "stem": "Explosion007_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2499846522192891
+        },
+        {
+          "stem": "Explosion008_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Explosion010_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2502001601281025
+        },
+        {
+          "stem": "Explosion011_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2813494589433482
+        },
+        {
+          "stem": "Explosion013_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6097560975609756,
+          "precision": 0.33172496984318456,
+          "f1": 0.4296875,
+          "compression": 0.24992463069038287
+        },
+        {
+          "stem": "Explosion016_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21806853582554517
+        },
+        {
+          "stem": "Explosion017_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.5764966740576497,
+          "precision": 0.6326034063260341,
+          "f1": 0.6032482598607889,
+          "compression": 0.25015216068167984
+        },
+        {
+          "stem": "Explosion020_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28117738187451585
+        },
+        {
+          "stem": "Explosion021_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2813299232736573
+        },
+        {
+          "stem": "Explosion022_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.675392670157068,
+          "precision": 0.14349276974416017,
+          "f1": 0.236697247706422,
+          "compression": 0.25013912075681694
+        },
+        {
+          "stem": "Explosion025_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6832298136645962,
+          "precision": 1.0,
+          "f1": 0.8118081180811808,
+          "compression": 0.21782178217821782
+        },
+        {
+          "stem": "Explosion027_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21778350515463918
+        },
+        {
+          "stem": "Explosion028_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2498533724340176
+        },
+        {
+          "stem": "Explosion029_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.7225130890052356,
+          "precision": 0.22885572139303484,
+          "f1": 0.34760705289672544,
+          "compression": 0.25020746887966805
+        },
+        {
+          "stem": "Explosion033_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.15717884130982368,
+          "precision": 0.39543726235741444,
+          "f1": 0.2249459264599856,
+          "compression": 0.2501585288522511
+        },
+        {
+          "stem": "Explosion035_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.12531017369727046,
+          "f1": 0.2227122381477398,
+          "compression": 0.281326352530541
+        },
+        {
+          "stem": "Explosion036_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28139665853200674
+        },
+        {
+          "stem": "Explosion039_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6263736263736264,
+          "precision": 0.20284697508896798,
+          "f1": 0.3064516129032258,
+          "compression": 0.281563126252505
+        },
+        {
+          "stem": "Explosion043_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.08427973699940228,
+          "f1": 0.15545755237045203,
+          "compression": 0.21880721946115617
+        },
+        {
+          "stem": "Fighting003_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.37753510140405616,
+          "precision": 0.6245161290322581,
+          "f1": 0.4705882352941176,
+          "compression": 0.2498388136686009
+        },
+        {
+          "stem": "Fighting018_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.1495601173020528,
+          "precision": 0.14655172413793102,
+          "f1": 0.14804063860667632,
+          "compression": 0.2505399568034557
+        },
+        {
+          "stem": "Fighting033_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.3800738007380074,
+          "precision": 0.37318840579710144,
+          "f1": 0.376599634369287,
+          "compression": 0.2497737556561086
+        },
+        {
+          "stem": "Fighting042_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.5499451152579583,
+          "precision": 0.8962432915921288,
+          "f1": 0.6816326530612244,
+          "compression": 0.24988824318283415
+        },
+        {
+          "stem": "Fighting047_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.2562844880441447,
+          "precision": 0.3333333333333333,
+          "f1": 0.2897746967071057,
+          "compression": 0.2812289751065261
+        },
+        {
+          "stem": "RoadAccidents001_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24963396778916544
+        },
+        {
+          "stem": "RoadAccidents002_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.47540983606557374,
+          "precision": 0.29896907216494845,
+          "f1": 0.3670886075949367,
+          "compression": 0.27953890489913547
+        },
+        {
+          "stem": "RoadAccidents004_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2493573264781491
+        },
+        {
+          "stem": "RoadAccidents009_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.11969111969111969,
+          "f1": 0.21379310344827587,
+          "compression": 0.2821350762527233
+        },
+        {
+          "stem": "RoadAccidents010_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "RoadAccidents011_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2190829087540528
+        },
+        {
+          "stem": "RoadAccidents012_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5177304964539007,
+          "precision": 0.6293103448275862,
+          "f1": 0.5680933852140078,
+          "compression": 0.24786324786324787
+        },
+        {
+          "stem": "RoadAccidents016_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.3987473903966597,
+          "f1": 0.5701492537313433,
+          "compression": 0.21852189781021897
+        },
+        {
+          "stem": "RoadAccidents017_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5352112676056338,
+          "precision": 0.7037037037037037,
+          "f1": 0.608,
+          "compression": 0.2222222222222222
+        },
+        {
+          "stem": "RoadAccidents019_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.25165562913907286,
+          "precision": 0.11585365853658537,
+          "f1": 0.15866388308977036,
+          "compression": 0.2496194824961948
+        },
+        {
+          "stem": "RoadAccidents020_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.27313769751693,
+          "f1": 0.42907801418439717,
+          "compression": 0.24985899605188946
+        },
+        {
+          "stem": "RoadAccidents021_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.13114754098360656,
+          "precision": 0.21052631578947367,
+          "f1": 0.1616161616161616,
+          "compression": 0.24516129032258063
+        },
+        {
+          "stem": "RoadAccidents022_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "RoadAccidents121_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24959128065395095
+        },
+        {
+          "stem": "RoadAccidents122_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24884080370942813
+        },
+        {
+          "stem": "RoadAccidents123_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.654320987654321,
+          "precision": 0.21115537848605578,
+          "f1": 0.3192771084337349,
+          "compression": 0.24975124378109453
+        },
+        {
+          "stem": "RoadAccidents124_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24949832775919734
+        },
+        {
+          "stem": "RoadAccidents125_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2811970638057595
+        },
+        {
+          "stem": "RoadAccidents127_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.3049645390070922,
+          "precision": 0.05931034482758621,
+          "f1": 0.09930715935334872,
+          "compression": 0.2810077519379845
+        },
+        {
+          "stem": "RoadAccidents128_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.21621621621621623,
+          "precision": 0.1702127659574468,
+          "f1": 0.19047619047619047,
+          "compression": 0.24955752212389382
+        },
+        {
+          "stem": "RoadAccidents131_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "RoadAccidents132_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24973147153598282
+        },
+        {
+          "stem": "RoadAccidents133_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.7458563535911602,
+          "precision": 0.9183673469387755,
+          "f1": 0.8231707317073171,
+          "compression": 0.21842496285289748
+        },
+        {
+          "stem": "Robbery048_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.27442827442827444,
+          "precision": 0.3333333333333333,
+          "f1": 0.30102622576966936,
+          "compression": 0.28105039034776436
+        },
+        {
+          "stem": "Robbery050_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.2903930131004367,
+          "precision": 0.7150537634408602,
+          "f1": 0.41304347826086957,
+          "compression": 0.21869488536155202
+        },
+        {
+          "stem": "Robbery102_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.39501039501039503,
+          "precision": 0.4166666666666667,
+          "f1": 0.40554962646744935,
+          "compression": 0.24958949096880131
+        },
+        {
+          "stem": "Robbery106_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2506265664160401
+        },
+        {
+          "stem": "Robbery137_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.3397577092511013,
+          "precision": 1.0,
+          "f1": 0.5071927661323469,
+          "compression": 0.2813497492020064
+        },
+        {
+          "stem": "Shooting002_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.2691029900332226,
+          "f1": 0.4240837696335078,
+          "compression": 0.24958540630182421
+        },
+        {
+          "stem": "Shooting004_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2498605688789738
+        },
+        {
+          "stem": "Shooting007_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.743801652892562,
+          "precision": 0.22332506203473945,
+          "f1": 0.3435114503816794,
+          "compression": 0.2818181818181818
+        },
+        {
+          "stem": "Shooting008_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.6769662921348315,
+          "f1": 0.8073701842546064,
+          "compression": 0.21907692307692309
+        },
+        {
+          "stem": "Shooting010_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2502839833396441
+        },
+        {
+          "stem": "Shooting011_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.4575645756457565,
+          "precision": 0.11022222222222222,
+          "f1": 0.17765042979942694,
+          "compression": 0.2810392205845616
+        },
+        {
+          "stem": "Shooting013_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.2847682119205298,
+          "f1": 0.443298969072165,
+          "compression": 0.2814538676607642
+        },
+        {
+          "stem": "Shooting015_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.3111888111888112,
+          "precision": 0.6252927400468384,
+          "f1": 0.4155642023346304,
+          "compression": 0.24927028604786924
+        },
+        {
+          "stem": "Shooting018_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2501389660922735
+        },
+        {
+          "stem": "Shooting019_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shooting021_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24941176470588236
+        },
+        {
+          "stem": "Shooting022_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.4528112449799197,
+          "f1": 0.6233586731167934,
+          "compression": 0.21870882740447958
+        },
+        {
+          "stem": "Shooting024_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21917124313529707
+        },
+        {
+          "stem": "Shooting026_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21881682109764788
+        },
+        {
+          "stem": "Shooting028_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24973656480505796
+        },
+        {
+          "stem": "Shooting032_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.35545023696682465,
+          "precision": 0.01383508577753182,
+          "f1": 0.026633522727272728,
+          "compression": 0.25003459250034593
+        },
+        {
+          "stem": "Shooting033_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.5794392523364486,
+          "precision": 0.18199608610567514,
+          "f1": 0.2769918093819806,
+          "compression": 0.2815426997245179
+        },
+        {
+          "stem": "Shooting034_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2817601135557133
+        },
+        {
+          "stem": "Shooting037_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.2644628099173554,
+          "precision": 0.42105263157894735,
+          "f1": 0.32487309644670054,
+          "compression": 0.24918032786885247
+        },
+        {
+          "stem": "Shooting043_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2497331910352188
+        },
+        {
+          "stem": "Shooting046_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.30505415162454874,
+          "precision": 0.13286163522012578,
+          "f1": 0.18510405257393212,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shooting047_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.27225732337736935,
+          "precision": 0.4575289575289575,
+          "f1": 0.34137558516384586,
+          "compression": 0.25003016773259323
+        },
+        {
+          "stem": "Shooting048_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.5887850467289719,
+          "precision": 0.2759124087591241,
+          "f1": 0.3757455268389662,
+          "compression": 0.24990879241152864
+        },
+        {
+          "stem": "Shoplifting001_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.7782705099778271,
+          "precision": 0.32290708371665133,
+          "f1": 0.4564369310793238,
+          "compression": 0.2502302025782689
+        },
+        {
+          "stem": "Shoplifting004_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.03850425768233987,
+          "precision": 0.0623875224955009,
+          "f1": 0.047619047619047616,
+          "compression": 0.24981267795594186
+        },
+        {
+          "stem": "Shoplifting005_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.6208530805687204,
+          "precision": 0.30465116279069765,
+          "f1": 0.40873634945397813,
+          "compression": 0.21860701576004068
+        },
+        {
+          "stem": "Shoplifting007_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.5796812749003984,
+          "precision": 0.22716627634660422,
+          "f1": 0.32641615255187884,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shoplifting010_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.1875
+        },
+        {
+          "stem": "Shoplifting015_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.7682119205298014,
+          "precision": 0.20603907637655416,
+          "f1": 0.3249299719887955,
+          "compression": 0.2495567375886525
+        },
+        {
+          "stem": "Shoplifting016_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.7912087912087912,
+          "precision": 0.22153846153846155,
+          "f1": 0.34615384615384615,
+          "compression": 0.2191503708698584
+        },
+        {
+          "stem": "Shoplifting017_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.6161616161616161,
+          "f1": 0.7625,
+          "compression": 0.21663019693654267
+        },
+        {
+          "stem": "Shoplifting020_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.0839112343966713,
+          "f1": 0.15483045425463854,
+          "compression": 0.24991334488734834
+        },
+        {
+          "stem": "Shoplifting021_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.2582781456953642,
+          "precision": 0.03903903903903904,
+          "f1": 0.06782608695652173,
+          "compression": 0.2813292030413968
+        },
+        {
+          "stem": "Shoplifting022_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28115015974440893
+        },
+        {
+          "stem": "Shoplifting027_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.7763975155279503,
+          "precision": 0.5341880341880342,
+          "f1": 0.6329113924050633,
+          "compression": 0.24986652429257875
+        },
+        {
+          "stem": "Shoplifting028_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.5571955719557196,
+          "precision": 0.44542772861356933,
+          "f1": 0.49508196721311476,
+          "compression": 0.24981577008106118
+        },
+        {
+          "stem": "Shoplifting029_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.6984478935698448,
+          "precision": 0.5790441176470589,
+          "f1": 0.6331658291457287,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shoplifting031_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.3981042654028436,
+          "precision": 0.75,
+          "f1": 0.5201238390092878,
+          "compression": 0.2505592841163311
+        },
+        {
+          "stem": "Shoplifting033_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.628099173553719,
+          "precision": 0.38578680203045684,
+          "f1": 0.4779874213836478,
+          "compression": 0.21913236929922136
+        },
+        {
+          "stem": "Shoplifting034_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.04054959785522788,
+          "f1": 0.07793880837359098,
+          "compression": 0.24997905671441736
+        },
+        {
+          "stem": "Shoplifting037_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.4918032786885246,
+          "precision": 0.07692307692307693,
+          "f1": 0.13303769401330376,
+          "compression": 0.2813852813852814
+        },
+        {
+          "stem": "Shoplifting039_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21869425615412058
+        },
+        {
+          "stem": "Shoplifting044_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2500171762281003
+        },
+        {
+          "stem": "Shoplifting049_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.5709969788519638,
+          "precision": 0.35261194029850745,
+          "f1": 0.43598615916955014,
+          "compression": 0.24941833410888786
+        },
+        {
+          "stem": "Stealing019_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.7479338842975206,
+          "precision": 0.16837209302325581,
+          "f1": 0.27486712224753224,
+          "compression": 0.2188963551211566
+        },
+        {
+          "stem": "Stealing036_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.7643504531722054,
+          "precision": 0.35988620199146515,
+          "f1": 0.48936170212765956,
+          "compression": 0.2808629644426688
+        },
+        {
+          "stem": "Stealing058_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.02361695244257522,
+          "precision": 0.06684981684981685,
+          "f1": 0.03490317953621803,
+          "compression": 0.2187938288920056
+        },
+        {
+          "stem": "Stealing062_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2185897435897436
+        },
+        {
+          "stem": "Stealing079_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.07021791767554479,
+          "precision": 0.07939767282683094,
+          "f1": 0.07452618053324768,
+          "compression": 0.24991447143345877
+        },
+        {
+          "stem": "Vandalism007_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.34833659491193736,
+          "precision": 0.6180555555555556,
+          "f1": 0.44555694618272845,
+          "compression": 0.2513089005235602
+        },
+        {
+          "stem": "Vandalism015_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.8654124457308249,
+          "precision": 0.8016085790884718,
+          "f1": 0.8322894919972165,
+          "compression": 0.250167672702884
+        },
+        {
+          "stem": "Vandalism017_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.5,
+          "precision": 0.24206349206349206,
+          "f1": 0.3262032085561497,
+          "compression": 0.24925816023738873
+        },
+        {
+          "stem": "Vandalism028_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.3246445497630332,
+          "precision": 0.13936927772126145,
+          "f1": 0.19501779359430607,
+          "compression": 0.21868743047830924
+        },
+        {
+          "stem": "Vandalism036_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.27710843373493976,
+          "precision": 0.2541436464088398,
+          "f1": 0.2651296829971182,
+          "compression": 0.25086625086625086
+        }
+      ],
+      "missing_feature": [],
+      "missing_frame_count": []
+    },
+    "max": {
+      "model_level": {
+        "frame_level_roc_auc": 0.8054396640124347,
+        "frame_level_average_precision": 0.21557439911720905,
+        "video_level_roc_auc_max": 0.9321190476190476,
+        "video_level_roc_auc_topk_mean": 0.9377380952380953,
+        "decision_gate": {
+          "threshold_max": 0.5472,
+          "threshold_topk_mean": 0.4576,
+          "tp": 135,
+          "fp": 43,
+          "tn": 107,
+          "fn": 5,
+          "precision": 0.7584269662921348,
+          "recall": 0.9642857142857143,
+          "f1": 0.8490566037735848,
+          "accuracy": 0.8344827586206897
+        }
+      },
+      "summary_main": {
+        "mode": "peak",
+        "top_k": 3,
+        "context": 1,
+        "n_videos": 140,
+        "mean_recall": 0.32763647399934714,
+        "mean_precision": 0.22187331550403258,
+        "mean_f1": 0.22460886557674753,
+        "mean_compression": 0.24879236340475452
+      },
+      "ablations": [
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.32763647399934714,
+          "mean_precision": 0.22187331550403258,
+          "mean_f1": 0.22460886557674753,
+          "mean_compression": 0.24879236340475452,
+          "ablation": "select_mode"
+        },
+        {
+          "mode": "topk",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.22030920465853912,
+          "mean_precision": 0.20930300163663623,
+          "mean_f1": 0.18197314002659323,
+          "mean_compression": 0.17913473518309148,
+          "ablation": "select_mode"
+        },
+        {
+          "mode": "threshold",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.9458863995961092,
+          "mean_precision": 0.21276821474067473,
+          "mean_f1": 0.3137057228777126,
+          "mean_compression": 0.8988745782605007,
+          "ablation": "select_mode"
+        },
+        {
+          "mode": "topk",
+          "top_k": 1,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.10564553763064066,
+          "mean_precision": 0.20153008011247425,
+          "mean_f1": 0.12351526316211817,
+          "mean_compression": 0.09149453252381372,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "topk",
+          "top_k": 2,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.17236975832286258,
+          "mean_precision": 0.20245977667173592,
+          "mean_f1": 0.15836380912079473,
+          "mean_compression": 0.13500871517455668,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "topk",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.22030920465853912,
+          "mean_precision": 0.20930300163663623,
+          "mean_f1": 0.18197314002659323,
+          "mean_compression": 0.17913473518309148,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "topk",
+          "top_k": 5,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.36642436847031223,
+          "mean_precision": 0.22290877350991883,
+          "mean_f1": 0.23558830208221895,
+          "mean_compression": 0.26930590090738804,
+          "ablation": "top_k"
+        },
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 0,
+          "n_videos": 140,
+          "mean_recall": 0.1185233951147651,
+          "mean_precision": 0.21917524153905457,
+          "mean_f1": 0.1330959124076453,
+          "mean_compression": 0.09376572306830899,
+          "ablation": "context"
+        },
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 1,
+          "n_videos": 140,
+          "mean_recall": 0.32763647399934714,
+          "mean_precision": 0.22187331550403258,
+          "mean_f1": 0.22460886557674753,
+          "mean_compression": 0.24879236340475452,
+          "ablation": "context"
+        },
+        {
+          "mode": "peak",
+          "top_k": 3,
+          "context": 2,
+          "n_videos": 140,
+          "mean_recall": 0.4425180418613399,
+          "mean_precision": 0.2206892864752241,
+          "mean_f1": 0.2506339412110971,
+          "mean_compression": 0.3369510194004507,
+          "ablation": "context"
+        }
+      ],
+      "tradeoff_curve": [
+        {
+          "k": 1,
+          "ours_recall": 0.10564553763064066,
+          "ours_compression": 0.09149453252381372,
+          "random_recall": 0.09366049609333614,
+          "random_compression": 0.09156105786732256,
+          "uniform_recall": 0.009952420084115083,
+          "uniform_compression": 0.0628746709364517
+        },
+        {
+          "k": 2,
+          "ours_recall": 0.17236975832286258,
+          "ours_compression": 0.13500871517455668,
+          "random_recall": 0.17819812716324493,
+          "random_compression": 0.1780025754631867,
+          "uniform_recall": 0.023222420161843317,
+          "uniform_compression": 0.12507716661657398
+        },
+        {
+          "k": 3,
+          "ours_recall": 0.22030920465853912,
+          "ours_compression": 0.17913473518309148,
+          "random_recall": 0.2617898629219139,
+          "random_compression": 0.25883910365461255,
+          "uniform_recall": 0.13946343332789043,
+          "uniform_compression": 0.21886536611923535
+        },
+        {
+          "k": 4,
+          "ours_recall": 0.281957674652167,
+          "ours_compression": 0.22137595216202266,
+          "random_recall": 0.33908305035831104,
+          "random_compression": 0.33379953174215077,
+          "uniform_recall": 0.22343419667997605,
+          "uniform_compression": 0.31271446536823455
+        },
+        {
+          "k": 5,
+          "ours_recall": 0.36642436847031223,
+          "ours_compression": 0.26930590090738804,
+          "random_recall": 0.40607199695473734,
+          "random_compression": 0.40286709678439425,
+          "uniform_recall": 0.31630211537537783,
+          "uniform_compression": 0.40643127896496123
+        },
+        {
+          "k": 6,
+          "ours_recall": 0.40509683067481084,
+          "ours_compression": 0.30080036657964426,
+          "random_recall": 0.4791837852938755,
+          "random_compression": 0.46707669181468997,
+          "uniform_recall": 0.5010297995782024,
+          "uniform_compression": 0.49999845012534144
+        },
+        {
+          "k": 8,
+          "ours_recall": 0.509504649138195,
+          "ours_compression": 0.3726940312754327,
+          "random_recall": 0.5969487973579649,
+          "random_compression": 0.583992665610645,
+          "uniform_recall": 0.6864002494592704,
+          "uniform_compression": 0.6875320739201332
+        },
+        {
+          "k": 10,
+          "ours_recall": 0.6092188589195018,
+          "ours_compression": 0.4564347348898718,
+          "random_recall": 0.6909228804378389,
+          "random_compression": 0.6810438521323371,
+          "uniform_recall": 0.8261531169484478,
+          "uniform_compression": 0.8751035395699187
+        },
+        {
+          "k": 12,
+          "ours_recall": 0.6732218181982284,
+          "ours_compression": 0.5189731581280072,
+          "random_recall": 0.7714974234928375,
+          "random_compression": 0.761252572376907,
+          "uniform_recall": 1.0,
+          "uniform_compression": 1.0
+        },
+        {
+          "k": 16,
+          "ours_recall": 0.7958852496603209,
+          "ours_compression": 0.6419240704118662,
+          "random_recall": 0.8855239648500733,
+          "random_compression": 0.8775517831364841,
+          "uniform_recall": 1.0,
+          "uniform_compression": 1.0
+        }
+      ],
+      "per_video_main": [
+        {
+          "stem": "Abuse028_x264",
+          "class": "Abuse",
+          "n_selected_seg": 3,
+          "recall": 0.7368421052631579,
+          "precision": 0.15864022662889518,
+          "f1": 0.26107226107226106,
+          "compression": 0.25
+        },
+        {
+          "stem": "Abuse030_x264",
+          "class": "Abuse",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Arrest001_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.7408637873754153,
+          "precision": 0.3338323353293413,
+          "f1": 0.46026831785345723,
+          "compression": 0.2813816343723673
+        },
+        {
+          "stem": "Arrest007_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.3787638668779715,
+          "precision": 0.3036848792884371,
+          "f1": 0.33709449929478136,
+          "compression": 0.2503180661577608
+        },
+        {
+          "stem": "Arrest024_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.020942408376963352,
+          "precision": 0.055415617128463476,
+          "f1": 0.030397236614853197,
+          "compression": 0.218793055938275
+        },
+        {
+          "stem": "Arrest030_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.43157262905162064,
+          "precision": 0.33287037037037037,
+          "f1": 0.3758494511238891,
+          "compression": 0.24994214302244852
+        },
+        {
+          "stem": "Arrest039_x264",
+          "class": "Arrest",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2500157878118093
+        },
+        {
+          "stem": "Arson007_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.18761996161228406
+        },
+        {
+          "stem": "Arson009_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2489905787348587
+        },
+        {
+          "stem": "Arson010_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25007913896802786
+        },
+        {
+          "stem": "Arson011_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.26837806301050177,
+          "precision": 0.8303249097472925,
+          "f1": 0.40564373897707234,
+          "compression": 0.21879936808846762
+        },
+        {
+          "stem": "Arson016_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.36477987421383645,
+          "precision": 0.6473214285714286,
+          "f1": 0.4666130329847144,
+          "compression": 0.24958217270194985
+        },
+        {
+          "stem": "Arson018_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2494061757719715
+        },
+        {
+          "stem": "Arson022_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Arson035_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.006644518272425249,
+          "precision": 0.0049504950495049506,
+          "f1": 0.005673758865248227,
+          "compression": 0.28114126652748783
+        },
+        {
+          "stem": "Arson041_x264",
+          "class": "Arson",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2189664358018114
+        },
+        {
+          "stem": "Assault006_x264",
+          "class": "Assault",
+          "n_selected_seg": 3,
+          "recall": 0.2928664447981479,
+          "precision": 1.0,
+          "f1": 0.4530498041410185,
+          "compression": 0.25
+        },
+        {
+          "stem": "Assault010_x264",
+          "class": "Assault",
+          "n_selected_seg": 3,
+          "recall": 0.7142857142857143,
+          "precision": 0.16043956043956045,
+          "f1": 0.262024407753051,
+          "compression": 0.28126352228472523
+        },
+        {
+          "stem": "Assault011_x264",
+          "class": "Assault",
+          "n_selected_seg": 3,
+          "recall": 0.36689419795221845,
+          "precision": 0.37521815008726006,
+          "f1": 0.371009490940466,
+          "compression": 0.2504370629370629
+        },
+        {
+          "stem": "Burglary005_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24996765428904127
+        },
+        {
+          "stem": "Burglary017_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28111689540937057
+        },
+        {
+          "stem": "Burglary018_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25066666666666665
+        },
+        {
+          "stem": "Burglary021_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.4485981308411215,
+          "precision": 0.6666666666666666,
+          "f1": 0.5363128491620112,
+          "compression": 0.2810670136629798
+        },
+        {
+          "stem": "Burglary024_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.2886421861656704,
+          "precision": 0.3333333333333333,
+          "f1": 0.30938215102974825,
+          "compression": 0.2812760055478502
+        },
+        {
+          "stem": "Burglary032_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2500158277936056
+        },
+        {
+          "stem": "Burglary033_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.5645756457564576,
+          "precision": 0.4857142857142857,
+          "f1": 0.5221843003412969,
+          "compression": 0.25019857029388404
+        },
+        {
+          "stem": "Burglary035_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24987654320987654
+        },
+        {
+          "stem": "Burglary037_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.2556657223796034,
+          "precision": 0.7520833333333333,
+          "f1": 0.38160676532769555,
+          "compression": 0.25
+        },
+        {
+          "stem": "Burglary061_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24994438264738597
+        },
+        {
+          "stem": "Burglary076_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25001934535324616
+        },
+        {
+          "stem": "Burglary079_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.9881796690307328,
+          "precision": 0.7880420145434959,
+          "f1": 0.876835480970932,
+          "compression": 0.24998316838349155
+        },
+        {
+          "stem": "Burglary092_x264",
+          "class": "Burglary",
+          "n_selected_seg": 3,
+          "recall": 0.055248618784530384,
+          "precision": 0.0641025641025641,
+          "f1": 0.05934718100890207,
+          "compression": 0.2496
+        },
+        {
+          "stem": "Explosion002_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2501868925990531
+        },
+        {
+          "stem": "Explosion004_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21871713985278654
+        },
+        {
+          "stem": "Explosion007_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2499846522192891
+        },
+        {
+          "stem": "Explosion008_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21910755148741418
+        },
+        {
+          "stem": "Explosion010_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2814251401120897
+        },
+        {
+          "stem": "Explosion011_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.08609271523178808,
+          "precision": 0.0377906976744186,
+          "f1": 0.052525252525252523,
+          "compression": 0.218968809675366
+        },
+        {
+          "stem": "Explosion013_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6097560975609756,
+          "precision": 0.33172496984318456,
+          "f1": 0.4296875,
+          "compression": 0.24992463069038287
+        },
+        {
+          "stem": "Explosion016_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24922118380062305
+        },
+        {
+          "stem": "Explosion017_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6873614190687362,
+          "precision": 0.7560975609756098,
+          "f1": 0.7200929152148666,
+          "compression": 0.24954351795496044
+        },
+        {
+          "stem": "Explosion020_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28117738187451585
+        },
+        {
+          "stem": "Explosion021_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2813299232736573
+        },
+        {
+          "stem": "Explosion022_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.675392670157068,
+          "precision": 0.14349276974416017,
+          "f1": 0.236697247706422,
+          "compression": 0.25013912075681694
+        },
+        {
+          "stem": "Explosion025_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.6832298136645962,
+          "precision": 1.0,
+          "f1": 0.8118081180811808,
+          "compression": 0.21782178217821782
+        },
+        {
+          "stem": "Explosion027_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Explosion028_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2504398826979472
+        },
+        {
+          "stem": "Explosion029_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.7225130890052356,
+          "precision": 0.2292358803986711,
+          "f1": 0.3480453972257251,
+          "compression": 0.24979253112033195
+        },
+        {
+          "stem": "Explosion033_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.15717884130982368,
+          "precision": 0.39543726235741444,
+          "f1": 0.2249459264599856,
+          "compression": 0.2501585288522511
+        },
+        {
+          "stem": "Explosion035_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21849912739965097
+        },
+        {
+          "stem": "Explosion036_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2812089356110381
+        },
+        {
+          "stem": "Explosion039_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.967032967032967,
+          "precision": 0.3142857142857143,
+          "f1": 0.47439353099730464,
+          "compression": 0.280561122244489
+        },
+        {
+          "stem": "Explosion043_x264",
+          "class": "Explosion",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2500653936698928
+        },
+        {
+          "stem": "Fighting003_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.4703588143525741,
+          "precision": 0.7780645161290323,
+          "f1": 0.5862907146329606,
+          "compression": 0.2498388136686009
+        },
+        {
+          "stem": "Fighting018_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2498200143988481
+        },
+        {
+          "stem": "Fighting033_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.3800738007380074,
+          "precision": 0.37318840579710144,
+          "f1": 0.376599634369287,
+          "compression": 0.2497737556561086
+        },
+        {
+          "stem": "Fighting042_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.2327113062568606,
+          "precision": 0.37857142857142856,
+          "f1": 0.2882392929979606,
+          "compression": 0.25033527045149756
+        },
+        {
+          "stem": "Fighting047_x264",
+          "class": "Fighting",
+          "n_selected_seg": 3,
+          "recall": 0.2562844880441447,
+          "precision": 0.3333333333333333,
+          "f1": 0.2897746967071057,
+          "compression": 0.2812289751065261
+        },
+        {
+          "stem": "RoadAccidents001_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24963396778916544
+        },
+        {
+          "stem": "RoadAccidents002_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5245901639344263,
+          "precision": 0.32989690721649484,
+          "f1": 0.4050632911392405,
+          "compression": 0.27953890489913547
+        },
+        {
+          "stem": "RoadAccidents004_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2493573264781491
+        },
+        {
+          "stem": "RoadAccidents009_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.11969111969111969,
+          "f1": 0.21379310344827587,
+          "compression": 0.2821350762527233
+        },
+        {
+          "stem": "RoadAccidents010_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "RoadAccidents011_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28207503473830475
+        },
+        {
+          "stem": "RoadAccidents012_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.723404255319149,
+          "precision": 1.0,
+          "f1": 0.8395061728395062,
+          "compression": 0.21794871794871795
+        },
+        {
+          "stem": "RoadAccidents016_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.39791666666666664,
+          "f1": 0.5692995529061102,
+          "compression": 0.21897810218978103
+        },
+        {
+          "stem": "RoadAccidents017_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5352112676056338,
+          "precision": 0.7037037037037037,
+          "f1": 0.608,
+          "compression": 0.2222222222222222
+        },
+        {
+          "stem": "RoadAccidents019_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5231788079470199,
+          "precision": 0.24085365853658536,
+          "f1": 0.3298538622129436,
+          "compression": 0.2496194824961948
+        },
+        {
+          "stem": "RoadAccidents020_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5454545454545454,
+          "precision": 0.1489841986455982,
+          "f1": 0.23404255319148937,
+          "compression": 0.24985899605188946
+        },
+        {
+          "stem": "RoadAccidents021_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.13114754098360656,
+          "precision": 0.21052631578947367,
+          "f1": 0.1616161616161616,
+          "compression": 0.24516129032258063
+        },
+        {
+          "stem": "RoadAccidents022_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "RoadAccidents121_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24959128065395095
+        },
+        {
+          "stem": "RoadAccidents122_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.28129829984544047
+        },
+        {
+          "stem": "RoadAccidents123_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.32270916334661354,
+          "f1": 0.4879518072289157,
+          "compression": 0.24975124378109453
+        },
+        {
+          "stem": "RoadAccidents124_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24949832775919734
+        },
+        {
+          "stem": "RoadAccidents125_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.918918918918919,
+          "precision": 0.23076923076923078,
+          "f1": 0.3688969258589512,
+          "compression": 0.24957651044607565
+        },
+        {
+          "stem": "RoadAccidents127_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.3049645390070922,
+          "precision": 0.05939226519337017,
+          "f1": 0.09942196531791908,
+          "compression": 0.2806201550387597
+        },
+        {
+          "stem": "RoadAccidents128_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.5315315315315315,
+          "precision": 0.4796747967479675,
+          "f1": 0.5042735042735043,
+          "compression": 0.2176991150442478
+        },
+        {
+          "stem": "RoadAccidents131_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21916010498687663
+        },
+        {
+          "stem": "RoadAccidents132_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2814178302900107
+        },
+        {
+          "stem": "RoadAccidents133_x264",
+          "class": "RoadAccidents",
+          "n_selected_seg": 3,
+          "recall": 0.7458563535911602,
+          "precision": 0.8035714285714286,
+          "f1": 0.7736389684813754,
+          "compression": 0.24962852897473997
+        },
+        {
+          "stem": "Robbery048_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.27442827442827444,
+          "precision": 0.375,
+          "f1": 0.31692677070828335,
+          "compression": 0.24982256919801277
+        },
+        {
+          "stem": "Robbery050_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.2903930131004367,
+          "precision": 0.7150537634408602,
+          "f1": 0.41304347826086957,
+          "compression": 0.21869488536155202
+        },
+        {
+          "stem": "Robbery102_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.39501039501039503,
+          "precision": 0.4166666666666667,
+          "f1": 0.40554962646744935,
+          "compression": 0.24958949096880131
+        },
+        {
+          "stem": "Robbery106_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2506265664160401
+        },
+        {
+          "stem": "Robbery137_x264",
+          "class": "Robbery",
+          "n_selected_seg": 3,
+          "recall": 0.30231277533039647,
+          "precision": 1.0,
+          "f1": 0.4642706131078224,
+          "compression": 0.2503419972640219
+        },
+        {
+          "stem": "Shooting002_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.2691029900332226,
+          "f1": 0.4240837696335078,
+          "compression": 0.24958540630182421
+        },
+        {
+          "stem": "Shooting004_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2498605688789738
+        },
+        {
+          "stem": "Shooting007_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24965034965034966
+        },
+        {
+          "stem": "Shooting008_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.6769662921348315,
+          "f1": 0.8073701842546064,
+          "compression": 0.21907692307692309
+        },
+        {
+          "stem": "Shooting010_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2502839833396441
+        },
+        {
+          "stem": "Shooting011_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.218586060454659
+        },
+        {
+          "stem": "Shooting013_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.2847682119205298,
+          "f1": 0.443298969072165,
+          "compression": 0.2814538676607642
+        },
+        {
+          "stem": "Shooting015_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.3111888111888112,
+          "precision": 0.6252927400468384,
+          "f1": 0.4155642023346304,
+          "compression": 0.24927028604786924
+        },
+        {
+          "stem": "Shooting018_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2501389660922735
+        },
+        {
+          "stem": "Shooting019_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shooting021_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24941176470588236
+        },
+        {
+          "stem": "Shooting022_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.39630931458699475,
+          "f1": 0.5676526117054752,
+          "compression": 0.24989020641194554
+        },
+        {
+          "stem": "Shooting024_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21917124313529707
+        },
+        {
+          "stem": "Shooting026_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21881682109764788
+        },
+        {
+          "stem": "Shooting028_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2813487881981033
+        },
+        {
+          "stem": "Shooting032_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.35545023696682465,
+          "precision": 0.01229911446375861,
+          "f1": 0.023775558725630055,
+          "compression": 0.28126008947926756
+        },
+        {
+          "stem": "Shooting033_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.5794392523364486,
+          "precision": 0.18181818181818182,
+          "f1": 0.2767857142857143,
+          "compression": 0.2818181818181818
+        },
+        {
+          "stem": "Shooting034_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.9010989010989011,
+          "precision": 0.20654911838790932,
+          "f1": 0.3360655737704918,
+          "compression": 0.2817601135557133
+        },
+        {
+          "stem": "Shooting037_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.256198347107438,
+          "precision": 0.41333333333333333,
+          "f1": 0.31632653061224486,
+          "compression": 0.2459016393442623
+        },
+        {
+          "stem": "Shooting043_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.2497331910352188
+        },
+        {
+          "stem": "Shooting046_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.592057761732852,
+          "precision": 0.2578616352201258,
+          "f1": 0.3592552026286966,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shooting047_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.2768523836875359,
+          "precision": 0.41355641355641354,
+          "f1": 0.3316703939446069,
+          "compression": 0.28128393869916735
+        },
+        {
+          "stem": "Shooting048_x264",
+          "class": "Shooting",
+          "n_selected_seg": 3,
+          "recall": 0.8006230529595015,
+          "precision": 0.37518248175182484,
+          "f1": 0.510934393638171,
+          "compression": 0.24990879241152864
+        },
+        {
+          "stem": "Shoplifting001_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.47671840354767187,
+          "precision": 0.22631578947368422,
+          "f1": 0.30692362598144185,
+          "compression": 0.21869244935543278
+        },
+        {
+          "stem": "Shoplifting004_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.24996253559118836
+        },
+        {
+          "stem": "Shoplifting005_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.6208530805687204,
+          "precision": 0.30465116279069765,
+          "f1": 0.40873634945397813,
+          "compression": 0.21860701576004068
+        },
+        {
+          "stem": "Shoplifting007_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.5796812749003984,
+          "precision": 0.22716627634660422,
+          "f1": 0.32641615255187884,
+          "compression": 0.25
+        },
+        {
+          "stem": "Shoplifting010_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.1875
+        },
+        {
+          "stem": "Shoplifting015_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.7682119205298014,
+          "precision": 0.1829652996845426,
+          "f1": 0.29554140127388534,
+          "compression": 0.28102836879432624
+        },
+        {
+          "stem": "Shoplifting016_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.2808641975308642,
+          "f1": 0.43855421686746987,
+          "compression": 0.21847606203641268
+        },
+        {
+          "stem": "Shoplifting017_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.61,
+          "f1": 0.7577639751552795,
+          "compression": 0.2188183807439825
+        },
+        {
+          "stem": "Shoplifting020_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.0839112343966713,
+          "f1": 0.15483045425463854,
+          "compression": 0.24991334488734834
+        },
+        {
+          "stem": "Shoplifting021_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.2582781456953642,
+          "precision": 0.043968432919954906,
+          "f1": 0.07514450867052024,
+          "compression": 0.24978879188960856
+        },
+        {
+          "stem": "Shoplifting022_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.24632352941176472,
+          "precision": 0.12226277372262774,
+          "f1": 0.16341463414634147,
+          "compression": 0.2501141031492469
+        },
+        {
+          "stem": "Shoplifting027_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.6110056925996205,
+          "f1": 0.7585394581861014,
+          "compression": 0.2813667912439936
+        },
+        {
+          "stem": "Shoplifting028_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.6863468634686347,
+          "precision": 0.5486725663716814,
+          "f1": 0.6098360655737705,
+          "compression": 0.24981577008106118
+        },
+        {
+          "stem": "Shoplifting029_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.30155210643015523,
+          "precision": 0.2857142857142857,
+          "f1": 0.29341963322545844,
+          "compression": 0.21875
+        },
+        {
+          "stem": "Shoplifting031_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.1990521327014218,
+          "precision": 0.375,
+          "f1": 0.2600619195046439,
+          "compression": 0.2505592841163311
+        },
+        {
+          "stem": "Shoplifting033_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.628099173553719,
+          "precision": 0.38578680203045684,
+          "f1": 0.4779874213836478,
+          "compression": 0.21913236929922136
+        },
+        {
+          "stem": "Shoplifting034_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.04054959785522788,
+          "f1": 0.07793880837359098,
+          "compression": 0.24997905671441736
+        },
+        {
+          "stem": "Shoplifting037_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.4918032786885246,
+          "precision": 0.08645533141210375,
+          "f1": 0.14705882352941177,
+          "compression": 0.25036075036075034
+        },
+        {
+          "stem": "Shoplifting039_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.21869425615412058
+        },
+        {
+          "stem": "Shoplifting044_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 1.0,
+          "precision": 0.049752611324903794,
+          "f1": 0.09478921183555905,
+          "compression": 0.24994847131569908
+        },
+        {
+          "stem": "Shoplifting049_x264",
+          "class": "Shoplifting",
+          "n_selected_seg": 3,
+          "recall": 0.7734138972809668,
+          "precision": 0.47761194029850745,
+          "f1": 0.5905420991926182,
+          "compression": 0.24941833410888786
+        },
+        {
+          "stem": "Stealing019_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.7479338842975206,
+          "precision": 0.14751426242868787,
+          "f1": 0.24642614023144999,
+          "compression": 0.24984728161270617
+        },
+        {
+          "stem": "Stealing036_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.6858006042296072,
+          "precision": 0.3632,
+          "f1": 0.4748953974895398,
+          "compression": 0.24970035956851777
+        },
+        {
+          "stem": "Stealing058_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.02361695244257522,
+          "precision": 0.06684981684981685,
+          "f1": 0.03490317953621803,
+          "compression": 0.2187938288920056
+        },
+        {
+          "stem": "Stealing062_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "compression": 0.25
+        },
+        {
+          "stem": "Stealing079_x264",
+          "class": "Stealing",
+          "n_selected_seg": 3,
+          "recall": 0.07021791767554479,
+          "precision": 0.07939767282683094,
+          "f1": 0.07452618053324768,
+          "compression": 0.24991447143345877
+        },
+        {
+          "stem": "Vandalism007_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.34833659491193736,
+          "precision": 0.6180555555555556,
+          "f1": 0.44555694618272845,
+          "compression": 0.2513089005235602
+        },
+        {
+          "stem": "Vandalism015_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.3256150506512301,
+          "precision": 0.30201342281879195,
+          "f1": 0.31337047353760444,
+          "compression": 0.24983232729711602
+        },
+        {
+          "stem": "Vandalism017_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.5,
+          "precision": 0.24206349206349206,
+          "f1": 0.3262032085561497,
+          "compression": 0.24925816023738873
+        },
+        {
+          "stem": "Vandalism028_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.3246445497630332,
+          "precision": 0.13936927772126145,
+          "f1": 0.19501779359430607,
+          "compression": 0.21868743047830924
+        },
+        {
+          "stem": "Vandalism036_x264",
+          "class": "Vandalism",
+          "n_selected_seg": 3,
+          "recall": 0.14156626506024098,
+          "precision": 0.1298342541436464,
+          "f1": 0.13544668587896252,
+          "compression": 0.25086625086625086
+        }
+      ],
+      "missing_feature": [],
+      "missing_frame_count": []
+    }
+  }
+}

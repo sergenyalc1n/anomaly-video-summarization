@@ -1,0 +1,4971 @@
+{
+  "checkpoint": "checkpoints/ucf_loc/cliptsa_ucf_best.pkl",
+  "feature_root": "data\\ucf\\features\\test",
+  "num_videos": 290,
+  "num_normal": 150,
+  "num_abnormal": 140,
+  "metrics": {
+    "max": {
+      "roc_auc": 0.9570952380952381,
+      "average_precision": 0.9545500409013046,
+      "best_threshold_youden": {
+        "threshold": 0.5472429394721985,
+        "tpr": 0.9285714285714286,
+        "fpr": 0.13333333333333333,
+        "youden_j": 0.7952380952380953
+      }
+    },
+    "mean": {
+      "roc_auc": 0.9528095238095238,
+      "average_precision": 0.947596786525834,
+      "best_threshold_youden": {
+        "threshold": 0.28176483511924744,
+        "tpr": 0.9357142857142857,
+        "fpr": 0.14666666666666667,
+        "youden_j": 0.789047619047619
+      }
+    },
+    "topk_mean": {
+      "roc_auc": 0.9561904761904763,
+      "average_precision": 0.9533109379808052,
+      "best_threshold_youden": {
+        "threshold": 0.4575967490673065,
+        "tpr": 0.95,
+        "fpr": 0.16,
+        "youden_j": 0.7899999999999999
+      }
+    }
+  },
+  "per_video": [
+    {
+      "file": "data\\ucf\\features\\test\\Abuse\\Abuse028_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        95,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8621045351028442,
+      "mean_score": 0.6557881236076355,
+      "topk_mean_score": 0.8566535115242004
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Abuse\\Abuse030_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        103,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6569684147834778,
+      "mean_score": 0.5234880447387695,
+      "topk_mean_score": 0.6330935955047607
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arrest\\Arrest001_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        159,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8836314082145691,
+      "mean_score": 0.5644223690032959,
+      "topk_mean_score": 0.8670387864112854
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arrest\\Arrest007_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        210,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7465301156044006,
+      "mean_score": 0.4698692262172699,
+      "topk_mean_score": 0.7434148192405701
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arrest\\Arrest024_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        242,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9577885270118713,
+      "mean_score": 0.8721160888671875,
+      "topk_mean_score": 0.9549099802970886
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arrest\\Arrest030_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        577,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9487829208374023,
+      "mean_score": 0.8066684007644653,
+      "topk_mean_score": 0.9466001391410828
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arrest\\Arrest039_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        1056,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6359941959381104,
+      "mean_score": 0.2989678680896759,
+      "topk_mean_score": 0.5846005082130432
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson007_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        417,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9345450401306152,
+      "mean_score": 0.7017024159431458,
+      "topk_mean_score": 0.9042491316795349
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson009_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        50,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.975148618221283,
+      "mean_score": 0.8615117073059082,
+      "topk_mean_score": 0.9691553711891174
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson010_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        211,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9772427678108215,
+      "mean_score": 0.7730975151062012,
+      "topk_mean_score": 0.9753611087799072
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson011_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        85,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8878844380378723,
+      "mean_score": 0.6939769387245178,
+      "topk_mean_score": 0.8615599274635315
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson016_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5472429394721985,
+      "mean_score": 0.4118001461029053,
+      "topk_mean_score": 0.542391300201416
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson018_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        57,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9936951994895935,
+      "mean_score": 0.9175753593444824,
+      "topk_mean_score": 0.9931110739707947
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson022_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        576,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8901054263114929,
+      "mean_score": 0.601458728313446,
+      "topk_mean_score": 0.8752478957176208
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson035_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        96,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9828158020973206,
+      "mean_score": 0.6995435953140259,
+      "topk_mean_score": 0.9784753322601318
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Arson\\Arson041_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        251,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9629808664321899,
+      "mean_score": 0.8199093341827393,
+      "topk_mean_score": 0.9612812995910645
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Assault\\Assault006_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        540,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9088549017906189,
+      "mean_score": 0.8070783019065857,
+      "topk_mean_score": 0.9015634059906006
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Assault\\Assault010_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        1079,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6078882813453674,
+      "mean_score": 0.4534856379032135,
+      "topk_mean_score": 0.5885506272315979
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Assault\\Assault011_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        153,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7487332224845886,
+      "mean_score": 0.5666861534118652,
+      "topk_mean_score": 0.7412322163581848
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary005_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        516,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8108975887298584,
+      "mean_score": 0.6201457977294922,
+      "topk_mean_score": 0.804678738117218
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary017_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        141,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9414166808128357,
+      "mean_score": 0.8134869337081909,
+      "topk_mean_score": 0.9359346032142639
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary018_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        75,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9027804732322693,
+      "mean_score": 0.7653050422668457,
+      "topk_mean_score": 0.8978698253631592
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary021_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        103,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8904059529304504,
+      "mean_score": 0.6607304215431213,
+      "topk_mean_score": 0.8845446705818176
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary024_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        241,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9073097705841064,
+      "mean_score": 0.7655500173568726,
+      "topk_mean_score": 0.9042351245880127
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary032_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        1053,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8852256536483765,
+      "mean_score": 0.7697535157203674,
+      "topk_mean_score": 0.8818195462226868
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary033_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        84,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6723613142967224,
+      "mean_score": 0.39955198764801025,
+      "topk_mean_score": 0.6327588558197021
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary035_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        270,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9347435235977173,
+      "mean_score": 0.8397600650787354,
+      "topk_mean_score": 0.9345300793647766
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary037_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        128,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9741618633270264,
+      "mean_score": 0.8515433669090271,
+      "topk_mean_score": 0.9736009240150452
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary061_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        600,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9173998832702637,
+      "mean_score": 0.6729087829589844,
+      "topk_mean_score": 0.9112193584442139
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary076_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        862,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6326609253883362,
+      "mean_score": 0.516882598400116,
+      "topk_mean_score": 0.6144096851348877
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary079_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        991,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9608365893363953,
+      "mean_score": 0.7100692987442017,
+      "topk_mean_score": 0.9601311683654785
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Burglary\\Burglary092_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        42,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9281229376792908,
+      "mean_score": 0.7515772581100464,
+      "topk_mean_score": 0.9273891448974609
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion002_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        268,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7766821384429932,
+      "mean_score": 0.5596908330917358,
+      "topk_mean_score": 0.765324592590332
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion004_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        127,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.984508752822876,
+      "mean_score": 0.8737319707870483,
+      "topk_mean_score": 0.9828878045082092
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion007_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        1086,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.92803555727005,
+      "mean_score": 0.7907547950744629,
+      "topk_mean_score": 0.9273200035095215
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion008_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        117,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5836147665977478,
+      "mean_score": 0.28176483511924744,
+      "topk_mean_score": 0.567161500453949
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion010_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        167,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4798997938632965,
+      "mean_score": 0.28273773193359375,
+      "topk_mean_score": 0.47375479340553284
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion011_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        105,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7117902040481567,
+      "mean_score": 0.3662310242652893,
+      "topk_mean_score": 0.7037124633789062
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion013_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        222,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8529335856437683,
+      "mean_score": 0.5626867413520813,
+      "topk_mean_score": 0.8209137320518494
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion016_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        65,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.13621163368225098,
+      "mean_score": 0.0511428639292717,
+      "topk_mean_score": 0.12153869867324829
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion017_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        110,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9236543774604797,
+      "mean_score": 0.7957502007484436,
+      "topk_mean_score": 0.9175443053245544
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion020_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        87,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9750613570213318,
+      "mean_score": 0.8357516527175903,
+      "topk_mean_score": 0.9720444679260254
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion021_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        53,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9108456373214722,
+      "mean_score": 0.6120468378067017,
+      "topk_mean_score": 0.8978350758552551
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion022_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        240,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6874892115592957,
+      "mean_score": 0.45216163992881775,
+      "topk_mean_score": 0.6789095401763916
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion025_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        34,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7700291872024536,
+      "mean_score": 0.5174188613891602,
+      "topk_mean_score": 0.7650389075279236
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion027_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        52,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.795279324054718,
+      "mean_score": 0.48866569995880127,
+      "topk_mean_score": 0.7833914756774902
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion028_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        114,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9262577295303345,
+      "mean_score": 0.735417366027832,
+      "topk_mean_score": 0.9229914546012878
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion029_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        161,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6087785363197327,
+      "mean_score": 0.44084370136260986,
+      "topk_mean_score": 0.6036536693572998
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion033_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        211,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7594044208526611,
+      "mean_score": 0.44358396530151367,
+      "topk_mean_score": 0.739940345287323
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion035_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        191,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7635497450828552,
+      "mean_score": 0.5987627506256104,
+      "topk_mean_score": 0.7498712539672852
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion036_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        356,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.915881872177124,
+      "mean_score": 0.7988687753677368,
+      "topk_mean_score": 0.9137794375419617
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion039_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        67,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8940844535827637,
+      "mean_score": 0.6876629590988159,
+      "topk_mean_score": 0.8883985877037048
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Explosion\\Explosion043_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        510,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9062937498092651,
+      "mean_score": 0.7654720544815063,
+      "topk_mean_score": 0.9056584239006042
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Fighting\\Fighting003_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        207,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8681516051292419,
+      "mean_score": 0.7412563562393188,
+      "topk_mean_score": 0.8443509936332703
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Fighting\\Fighting018_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        93,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9124082922935486,
+      "mean_score": 0.6522098183631897,
+      "topk_mean_score": 0.9117579460144043
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Fighting\\Fighting033_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        74,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7983101010322571,
+      "mean_score": 0.5695558786392212,
+      "topk_mean_score": 0.79555344581604
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Fighting\\Fighting042_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        150,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.963359534740448,
+      "mean_score": 0.8090274333953857,
+      "topk_mean_score": 0.958974301815033
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Fighting\\Fighting047_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        298,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7888064384460449,
+      "mean_score": 0.5791469216346741,
+      "topk_mean_score": 0.7776328921318054
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents001_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        92,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9856677055358887,
+      "mean_score": 0.9057700037956238,
+      "topk_mean_score": 0.9853964447975159
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents002_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        24,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9124668836593628,
+      "mean_score": 0.6876490116119385,
+      "topk_mean_score": 0.907634973526001
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents004_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        26,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.25566932559013367,
+      "mean_score": 0.11547303199768066,
+      "topk_mean_score": 0.2506917715072632
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents009_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        62,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8323308229446411,
+      "mean_score": 0.6204979419708252,
+      "topk_mean_score": 0.8280935287475586
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents010_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        36,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9503378868103027,
+      "mean_score": 0.7378948330879211,
+      "topk_mean_score": 0.9477354884147644
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents011_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        144,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7330385446548462,
+      "mean_score": 0.5373829007148743,
+      "topk_mean_score": 0.7154935002326965
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents012_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        32,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6506526470184326,
+      "mean_score": 0.4174010455608368,
+      "topk_mean_score": 0.6357576847076416
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents016_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        147,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6188028454780579,
+      "mean_score": 0.18505331873893738,
+      "topk_mean_score": 0.522223174571991
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents017_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        17,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8904088735580444,
+      "mean_score": 0.659447431564331,
+      "topk_mean_score": 0.8833391666412354
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents019_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        88,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.958909809589386,
+      "mean_score": 0.702075719833374,
+      "topk_mean_score": 0.9550273418426514
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents020_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        119,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9099076390266418,
+      "mean_score": 0.8064783811569214,
+      "topk_mean_score": 0.904686689376831
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents021_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        11,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9302054047584534,
+      "mean_score": 0.7571463584899902,
+      "topk_mean_score": 0.9232215285301208
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents022_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        48,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8135262727737427,
+      "mean_score": 0.5072388052940369,
+      "topk_mean_score": 0.7964676022529602
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents121_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        123,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9818440079689026,
+      "mean_score": 0.8515139818191528,
+      "topk_mean_score": 0.9804589152336121
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents122_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        44,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8363872766494751,
+      "mean_score": 0.6410914063453674,
+      "topk_mean_score": 0.8317961692810059
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents123_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        67,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5473058819770813,
+      "mean_score": 0.29673832654953003,
+      "topk_mean_score": 0.5295239090919495
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents124_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        100,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9681174755096436,
+      "mean_score": 0.8510572910308838,
+      "topk_mean_score": 0.9656068682670593
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents125_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        119,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8362805247306824,
+      "mean_score": 0.6574224233627319,
+      "topk_mean_score": 0.8314904570579529
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents127_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        172,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7186532020568848,
+      "mean_score": 0.4930238127708435,
+      "topk_mean_score": 0.6913599967956543
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents128_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        38,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9434019923210144,
+      "mean_score": 0.6902321577072144,
+      "topk_mean_score": 0.9373076558113098
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents131_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        102,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7637290954589844,
+      "mean_score": 0.506941020488739,
+      "topk_mean_score": 0.7519217133522034
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents132_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        125,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9284411668777466,
+      "mean_score": 0.7915332913398743,
+      "topk_mean_score": 0.9169594645500183
+    },
+    {
+      "file": "data\\ucf\\features\\test\\RoadAccidents\\RoadAccidents133_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        45,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7764240503311157,
+      "mean_score": 0.42800453305244446,
+      "topk_mean_score": 0.7671416401863098
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Robbery\\Robbery048_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        94,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9318857192993164,
+      "mean_score": 0.702869176864624,
+      "topk_mean_score": 0.9242563843727112
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Robbery\\Robbery050_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        114,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.019496746361255646,
+      "mean_score": 0.007970131933689117,
+      "topk_mean_score": 0.01773086190223694
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Robbery\\Robbery102_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        122,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9764413833618164,
+      "mean_score": 0.796267032623291,
+      "topk_mean_score": 0.9747382998466492
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Robbery\\Robbery106_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        80,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9521844387054443,
+      "mean_score": 0.7808716297149658,
+      "topk_mean_score": 0.9521358013153076
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Robbery\\Robbery137_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        147,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9668230414390564,
+      "mean_score": 0.8190012574195862,
+      "topk_mean_score": 0.9657396674156189
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting002_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        81,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.988392174243927,
+      "mean_score": 0.9015722274780273,
+      "topk_mean_score": 0.9877186417579651
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting004_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9846253395080566,
+      "mean_score": 0.8390007615089417,
+      "topk_mean_score": 0.9821870923042297
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting007_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        96,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9705846905708313,
+      "mean_score": 0.8187936544418335,
+      "topk_mean_score": 0.9690013527870178
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting008_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        109,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8581624031066895,
+      "mean_score": 0.21946650743484497,
+      "topk_mean_score": 0.8269515037536621
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting010_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        177,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9359791278839111,
+      "mean_score": 0.695115327835083,
+      "topk_mean_score": 0.9332713484764099
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting011_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        267,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9612108469009399,
+      "mean_score": 0.7984867095947266,
+      "topk_mean_score": 0.957571804523468
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting013_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        72,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9771612882614136,
+      "mean_score": 0.881279468536377,
+      "topk_mean_score": 0.9759615063667297
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting015_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        115,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9085969924926758,
+      "mean_score": 0.7390620708465576,
+      "topk_mean_score": 0.8974316716194153
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting018_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8875194787979126,
+      "mean_score": 0.6644114255905151,
+      "topk_mean_score": 0.8663246035575867
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting019_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        184,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9373118281364441,
+      "mean_score": 0.841496467590332,
+      "topk_mean_score": 0.9340898394584656
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting021_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        85,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9753144979476929,
+      "mean_score": 0.8631078600883484,
+      "topk_mean_score": 0.9699780344963074
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting022_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        304,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6861699223518372,
+      "mean_score": 0.4190071225166321,
+      "topk_mean_score": 0.6590185761451721
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting024_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        134,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9064673185348511,
+      "mean_score": 0.7567261457443237,
+      "topk_mean_score": 0.9007101058959961
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting026_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        94,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9828956127166748,
+      "mean_score": 0.9007854461669922,
+      "topk_mean_score": 0.9805831909179688
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting028_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        127,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8895727396011353,
+      "mean_score": 0.7155297994613647,
+      "topk_mean_score": 0.8854147791862488
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting032_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        1446,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8988130688667297,
+      "mean_score": 0.729305624961853,
+      "topk_mean_score": 0.8981550335884094
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting033_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        242,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9604489207267761,
+      "mean_score": 0.7890415787696838,
+      "topk_mean_score": 0.9580071568489075
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting034_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        94,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9447932839393616,
+      "mean_score": 0.7178311347961426,
+      "topk_mean_score": 0.9416610598564148
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting037_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        21,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9700466990470886,
+      "mean_score": 0.8514697551727295,
+      "topk_mean_score": 0.9673840999603271
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting043_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        125,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9865896701812744,
+      "mean_score": 0.916080117225647,
+      "topk_mean_score": 0.9849703907966614
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting046_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        340,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7499964237213135,
+      "mean_score": 0.595539391040802,
+      "topk_mean_score": 0.7483049035072327
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting047_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        553,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9246940612792969,
+      "mean_score": 0.7242739200592041,
+      "topk_mean_score": 0.919654905796051
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shooting\\Shooting048_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        183,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4942203760147095,
+      "mean_score": 0.31593257188796997,
+      "topk_mean_score": 0.48258814215660095
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting001_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        290,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.852764368057251,
+      "mean_score": 0.557636559009552,
+      "topk_mean_score": 0.8509966731071472
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting004_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        445,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9196357131004333,
+      "mean_score": 0.7935205698013306,
+      "topk_mean_score": 0.9159991145133972
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting005_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        132,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5760840773582458,
+      "mean_score": 0.4063284397125244,
+      "topk_mean_score": 0.5645750164985657
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting007_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        342,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7774448394775391,
+      "mean_score": 0.44038844108581543,
+      "topk_mean_score": 0.7633231282234192
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting010_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        183,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.37512660026550293,
+      "mean_score": 0.23333078622817993,
+      "topk_mean_score": 0.346626877784729
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting015_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        151,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7118206024169922,
+      "mean_score": 0.3819428086280823,
+      "topk_mean_score": 0.6908996105194092
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting016_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        99,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6686038970947266,
+      "mean_score": 0.4164571762084961,
+      "topk_mean_score": 0.6558718681335449
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting017_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        31,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8849564790725708,
+      "mean_score": 0.625286877155304,
+      "topk_mean_score": 0.8585702776908875
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting020_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        385,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6570610404014587,
+      "mean_score": 0.4211622178554535,
+      "topk_mean_score": 0.6368127465248108
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting021_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        237,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9058066010475159,
+      "mean_score": 0.7788059711456299,
+      "topk_mean_score": 0.9028253555297852
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting022_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        147,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.46704530715942383,
+      "mean_score": 0.3259260058403015,
+      "topk_mean_score": 0.4575967490673065
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting027_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        125,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4165487587451935,
+      "mean_score": 0.20957928895950317,
+      "topk_mean_score": 0.41323602199554443
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting028_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        91,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.829412043094635,
+      "mean_score": 0.441816121339798,
+      "topk_mean_score": 0.8157697319984436
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting029_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        146,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8019487857818604,
+      "mean_score": 0.47447898983955383,
+      "topk_mean_score": 0.7818682193756104
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting031_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        30,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8022400736808777,
+      "mean_score": 0.617315411567688,
+      "topk_mean_score": 0.7849225401878357
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting033_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        60,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.19637183845043182,
+      "mean_score": 0.1028931736946106,
+      "topk_mean_score": 0.18916763365268707
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting034_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        796,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7262709140777588,
+      "mean_score": 0.4159320294857025,
+      "topk_mean_score": 0.7117475867271423
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting037_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        93,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8304263949394226,
+      "mean_score": 0.638748824596405,
+      "topk_mean_score": 0.8202123045921326
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting039_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        187,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.25014224648475647,
+      "mean_score": 0.14290985465049744,
+      "topk_mean_score": 0.2326670140028
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting044_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        971,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9250852465629578,
+      "mean_score": 0.7404972910881042,
+      "topk_mean_score": 0.9129562377929688
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Shoplifting\\Shoplifting049_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        144,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8226380348205566,
+      "mean_score": 0.6460024118423462,
+      "topk_mean_score": 0.8156094551086426
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Stealing\\Stealing019_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        328,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9667426943778992,
+      "mean_score": 0.8630181550979614,
+      "topk_mean_score": 0.9641507267951965
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Stealing\\Stealing036_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        167,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9104180335998535,
+      "mean_score": 0.7185913324356079,
+      "topk_mean_score": 0.9060673117637634
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Stealing\\Stealing058_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        333,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9788503050804138,
+      "mean_score": 0.8527401685714722,
+      "topk_mean_score": 0.9757826328277588
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Stealing\\Stealing062_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        104,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8976057767868042,
+      "mean_score": 0.7514104247093201,
+      "topk_mean_score": 0.8869135975837708
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Stealing\\Stealing079_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        390,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9811320900917053,
+      "mean_score": 0.8072354197502136,
+      "topk_mean_score": 0.9806873798370361
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_003_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        189,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.11201154440641403,
+      "mean_score": 0.06105813384056091,
+      "topk_mean_score": 0.10177106410264969
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_006_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        30,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.04939981549978256,
+      "mean_score": 0.024834267795085907,
+      "topk_mean_score": 0.04635165259242058
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_010_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        71,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5403633713722229,
+      "mean_score": 0.41086578369140625,
+      "topk_mean_score": 0.5329113006591797
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_014_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        100,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.029633095487952232,
+      "mean_score": 0.014747324399650097,
+      "topk_mean_score": 0.027744362130761147
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_015_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        32,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.06282290071249008,
+      "mean_score": 0.028934475034475327,
+      "topk_mean_score": 0.05955387279391289
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_018_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        79,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0027546249330043793,
+      "mean_score": 0.0005539935664273798,
+      "topk_mean_score": 0.0015305698616430163
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_019_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        190,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4986015558242798,
+      "mean_score": 0.2576277554035187,
+      "topk_mean_score": 0.4732348918914795
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_024_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        72,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.021339232102036476,
+      "mean_score": 0.002609068527817726,
+      "topk_mean_score": 0.01496358122676611
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_025_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        41,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.006940718740224838,
+      "mean_score": 0.002484334632754326,
+      "topk_mean_score": 0.004995899274945259
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_027_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        329,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.008978845551609993,
+      "mean_score": 0.005948921199887991,
+      "topk_mean_score": 0.008441140875220299
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_033_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        112,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.028865313157439232,
+      "mean_score": 0.01215149275958538,
+      "topk_mean_score": 0.02619369514286518
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_034_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        88,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0051456294022500515,
+      "mean_score": 0.0019281578715890646,
+      "topk_mean_score": 0.0036990344524383545
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_041_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        85,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.007432192098349333,
+      "mean_score": 0.0009295276249758899,
+      "topk_mean_score": 0.003674166277050972
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_042_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        211,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0043393587693572044,
+      "mean_score": 0.000504533585626632,
+      "topk_mean_score": 0.0021376190707087517
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_048_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        110,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00948091596364975,
+      "mean_score": 0.0035915523767471313,
+      "topk_mean_score": 0.006523291114717722
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_050_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        280,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.03625063598155975,
+      "mean_score": 0.019694194197654724,
+      "topk_mean_score": 0.033446092158555984
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_051_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        158,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.1571987271308899,
+      "mean_score": 0.11559873819351196,
+      "topk_mean_score": 0.15144221484661102
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_056_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        105,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8382008671760559,
+      "mean_score": 0.6369425058364868,
+      "topk_mean_score": 0.8296957015991211
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_059_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        123,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6864336133003235,
+      "mean_score": 0.2892889678478241,
+      "topk_mean_score": 0.6769073605537415
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_063_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        24,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.004579069092869759,
+      "mean_score": 0.0018381194677203894,
+      "topk_mean_score": 0.004086120054125786
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_067_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        72,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00214907294139266,
+      "mean_score": 0.0011025778949260712,
+      "topk_mean_score": 0.002063748426735401
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_070_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        67,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0032708551734685898,
+      "mean_score": 0.00027126201894134283,
+      "topk_mean_score": 0.0015886719338595867
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_100_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        42,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.021545367315411568,
+      "mean_score": 0.011928052641451359,
+      "topk_mean_score": 0.020271973684430122
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_129_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        32,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.598173201084137,
+      "mean_score": 0.46327611804008484,
+      "topk_mean_score": 0.5960692763328552
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_150_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        58,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00867354217916727,
+      "mean_score": 0.0019698047544807196,
+      "topk_mean_score": 0.005037032533437014
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_168_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        116,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.03959635645151138,
+      "mean_score": 0.01611543819308281,
+      "topk_mean_score": 0.03496856614947319
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_175_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        590,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4122409522533417,
+      "mean_score": 0.22894835472106934,
+      "topk_mean_score": 0.40411219000816345
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_182_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        273,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.18511316180229187,
+      "mean_score": 0.05142102390527725,
+      "topk_mean_score": 0.14562712609767914
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_189_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        50,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7779589295387268,
+      "mean_score": 0.5469623804092407,
+      "topk_mean_score": 0.7758323550224304
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_196_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        134,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.01052779983729124,
+      "mean_score": 0.005613730754703283,
+      "topk_mean_score": 0.010372930206358433
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_203_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        172,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.16449099779129028,
+      "mean_score": 0.10190396010875702,
+      "topk_mean_score": 0.15796269476413727
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_210_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        361,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.018136009573936462,
+      "mean_score": 0.007256483659148216,
+      "topk_mean_score": 0.01751699112355709
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_217_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        122,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.36158642172813416,
+      "mean_score": 0.17800448834896088,
+      "topk_mean_score": 0.3347196578979492
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_224_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        464,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.08875233680009842,
+      "mean_score": 0.04403259605169296,
+      "topk_mean_score": 0.08183205872774124
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_246_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        333,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6352055072784424,
+      "mean_score": 0.31582677364349365,
+      "topk_mean_score": 0.619259774684906
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_247_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        548,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.061239082366228104,
+      "mean_score": 0.018488625064492226,
+      "topk_mean_score": 0.053176019340753555
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_248_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        76,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.011141265742480755,
+      "mean_score": 0.0027452027425169945,
+      "topk_mean_score": 0.010094857774674892
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_251_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        27,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.2309585064649582,
+      "mean_score": 0.06949521601200104,
+      "topk_mean_score": 0.1938788890838623
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_289_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        58,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.013719847425818443,
+      "mean_score": 0.007250035181641579,
+      "topk_mean_score": 0.011563673615455627
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_310_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        168,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.005250031128525734,
+      "mean_score": 0.0028563332743942738,
+      "topk_mean_score": 0.004834380000829697
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_312_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        85,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.003175606718286872,
+      "mean_score": 0.0007202799315564334,
+      "topk_mean_score": 0.0020019810181111097
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_317_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        62,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00295158289372921,
+      "mean_score": 0.0011485706781968474,
+      "topk_mean_score": 0.002343837171792984
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_345_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        14,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.12306084483861923,
+      "mean_score": 0.08708003908395767,
+      "topk_mean_score": 0.11746973544359207
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_352_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        361,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.04696010798215866,
+      "mean_score": 0.018535066395998,
+      "topk_mean_score": 0.04441292956471443
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_360_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        66,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3821001350879669,
+      "mean_score": 0.1346190720796585,
+      "topk_mean_score": 0.34241437911987305
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_365_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        442,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0066255442798137665,
+      "mean_score": 0.004613503813743591,
+      "topk_mean_score": 0.006403647363185883
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_401_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        109,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.1325298547744751,
+      "mean_score": 0.07549764961004257,
+      "topk_mean_score": 0.12585555016994476
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_417_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        72,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.009851516224443913,
+      "mean_score": 0.0032283549662679434,
+      "topk_mean_score": 0.008111103437840939
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_439_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        282,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.006618141662329435,
+      "mean_score": 0.0034216921776533127,
+      "topk_mean_score": 0.006499741226434708
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_452_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        30,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.011448380537331104,
+      "mean_score": 0.0035894764587283134,
+      "topk_mean_score": 0.010563936084508896
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_453_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        355,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.1764376014471054,
+      "mean_score": 0.07176253944635391,
+      "topk_mean_score": 0.16390061378479004
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_478_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        301,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5739468336105347,
+      "mean_score": 0.3039509057998657,
+      "topk_mean_score": 0.5641339421272278
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_576_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        752,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.02842494286596775,
+      "mean_score": 0.01635986752808094,
+      "topk_mean_score": 0.026651740074157715
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_597_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        149,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.16738785803318024,
+      "mean_score": 0.05045052990317345,
+      "topk_mean_score": 0.1466037482023239
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_603_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        219,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.04688982665538788,
+      "mean_score": 0.022742820903658867,
+      "topk_mean_score": 0.04524381458759308
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_606_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        83,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.028842303901910782,
+      "mean_score": 0.01288269180804491,
+      "topk_mean_score": 0.026952901855111122
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_621_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        321,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0365803986787796,
+      "mean_score": 0.019296864047646523,
+      "topk_mean_score": 0.03528079390525818
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_634_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        898,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.005931355524808168,
+      "mean_score": 0.0018819994293153286,
+      "topk_mean_score": 0.0035581488627940416
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_641_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        240,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.21037498116493225,
+      "mean_score": 0.087222620844841,
+      "topk_mean_score": 0.20381319522857666
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_656_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        121,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.028014134615659714,
+      "mean_score": 0.013705471530556679,
+      "topk_mean_score": 0.02739194966852665
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_686_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        161,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.012659214437007904,
+      "mean_score": 0.004636148456484079,
+      "topk_mean_score": 0.010985396802425385
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_696_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        242,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.11041254550218582,
+      "mean_score": 0.06148798391222954,
+      "topk_mean_score": 0.10297531634569168
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_702_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        169,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.012858559377491474,
+      "mean_score": 0.007347733713686466,
+      "topk_mean_score": 0.01107864361256361
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_704_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        113,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.11195605993270874,
+      "mean_score": 0.056109581142663956,
+      "topk_mean_score": 0.1025054082274437
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_710_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5331610441207886,
+      "mean_score": 0.2465364784002304,
+      "topk_mean_score": 0.5015739798545837
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_717_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        84,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.09257307648658752,
+      "mean_score": 0.0528462678194046,
+      "topk_mean_score": 0.08808533102273941
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_722_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        583,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.008150218054652214,
+      "mean_score": 0.0038570098113268614,
+      "topk_mean_score": 0.008010038174688816
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_725_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        62,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8669624328613281,
+      "mean_score": 0.6468673944473267,
+      "topk_mean_score": 0.8566257357597351
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_745_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        21,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.05921871215105057,
+      "mean_score": 0.030122926458716393,
+      "topk_mean_score": 0.05747523531317711
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_758_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        106,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0540936216711998,
+      "mean_score": 0.02215307578444481,
+      "topk_mean_score": 0.05054007098078728
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_778_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        85,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.003628690494224429,
+      "mean_score": 0.0012098427396267653,
+      "topk_mean_score": 0.0029468226712197065
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_780_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        135,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.008439184166491032,
+      "mean_score": 0.004679768346250057,
+      "topk_mean_score": 0.008119053207337856
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_781_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        265,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0814184844493866,
+      "mean_score": 0.03133546933531761,
+      "topk_mean_score": 0.07226698845624924
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_782_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        370,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.006251586601138115,
+      "mean_score": 0.002123365644365549,
+      "topk_mean_score": 0.004358423408120871
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_783_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        640,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.007469815667718649,
+      "mean_score": 0.0040173036977648735,
+      "topk_mean_score": 0.0074259391985833645
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_798_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        401,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.021776946261525154,
+      "mean_score": 0.016928445547819138,
+      "topk_mean_score": 0.021159149706363678
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_801_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        183,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.15936018526554108,
+      "mean_score": 0.04348093271255493,
+      "topk_mean_score": 0.13792143762111664
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_828_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        62,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.1094774529337883,
+      "mean_score": 0.023533377796411514,
+      "topk_mean_score": 0.09672588855028152
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_831_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        30,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.04668201133608818,
+      "mean_score": 0.019201450049877167,
+      "topk_mean_score": 0.04382353648543358
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_866_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        80,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.015635142102837563,
+      "mean_score": 0.008546153083443642,
+      "topk_mean_score": 0.01515457034111023
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_867_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        42,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.10437767207622528,
+      "mean_score": 0.05192700773477554,
+      "topk_mean_score": 0.09934089332818985
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_868_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        161,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4953465163707733,
+      "mean_score": 0.20043540000915527,
+      "topk_mean_score": 0.4808712899684906
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_869_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        161,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.015808826312422752,
+      "mean_score": 0.010387469083070755,
+      "topk_mean_score": 0.01389803271740675
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_870_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        41,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.02856462635099888,
+      "mean_score": 0.009628692641854286,
+      "topk_mean_score": 0.024603836238384247
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_871_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        291,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.07873160392045975,
+      "mean_score": 0.026836076751351357,
+      "topk_mean_score": 0.07053772360086441
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_872_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        36,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.08075111359357834,
+      "mean_score": 0.034792713820934296,
+      "topk_mean_score": 0.0771142840385437
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_873_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.016587242484092712,
+      "mean_score": 0.006831279955804348,
+      "topk_mean_score": 0.01604328490793705
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_874_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        282,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.006843246053904295,
+      "mean_score": 0.0033014025539159775,
+      "topk_mean_score": 0.006679616402834654
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_875_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        171,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.07442973554134369,
+      "mean_score": 0.02248261496424675,
+      "topk_mean_score": 0.06919033080339432
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_876_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        24,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0040762657299637794,
+      "mean_score": 0.0016166166169568896,
+      "topk_mean_score": 0.0032769686076790094
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_877_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        669,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.16593272984027863,
+      "mean_score": 0.09582887589931488,
+      "topk_mean_score": 0.16234980523586273
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_878_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        18,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8838342428207397,
+      "mean_score": 0.759591817855835,
+      "topk_mean_score": 0.8738601803779602
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_879_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        77,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.06406846642494202,
+      "mean_score": 0.02876361273229122,
+      "topk_mean_score": 0.05537610128521919
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_880_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        1204,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.011181705631315708,
+      "mean_score": 0.007338299416005611,
+      "topk_mean_score": 0.009775485843420029
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_881_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        15,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.011701173149049282,
+      "mean_score": 0.006525556556880474,
+      "topk_mean_score": 0.0111292889341712
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_882_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        111,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3437851071357727,
+      "mean_score": 0.07438741624355316,
+      "topk_mean_score": 0.3355070650577545
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_883_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        22,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8160267472267151,
+      "mean_score": 0.6421463489532471,
+      "topk_mean_score": 0.8027717471122742
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_884_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        602,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8254006505012512,
+      "mean_score": 0.6035332679748535,
+      "topk_mean_score": 0.8239926695823669
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_885_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        32,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0035321619361639023,
+      "mean_score": 0.0011391949374228716,
+      "topk_mean_score": 0.002769793150946498
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_886_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        184,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0028120954521000385,
+      "mean_score": 0.0007842609193176031,
+      "topk_mean_score": 0.0018172309501096606
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_887_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        509,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6364024877548218,
+      "mean_score": 0.41146120429039,
+      "topk_mean_score": 0.6334313750267029
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_888_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        39,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.15853539109230042,
+      "mean_score": 0.07030408829450607,
+      "topk_mean_score": 0.1535421907901764
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_889_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        21,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.043726079165935516,
+      "mean_score": 0.013428769074380398,
+      "topk_mean_score": 0.04076627269387245
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_890_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        239,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00922358687967062,
+      "mean_score": 0.004286793060600758,
+      "topk_mean_score": 0.0074783689342439175
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_891_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0042360322549939156,
+      "mean_score": 0.0007121334783732891,
+      "topk_mean_score": 0.002343469997867942
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_892_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        118,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.18230831623077393,
+      "mean_score": 0.08036172389984131,
+      "topk_mean_score": 0.17699021100997925
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_893_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        425,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.05467868596315384,
+      "mean_score": 0.025851862505078316,
+      "topk_mean_score": 0.0519946925342083
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_894_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        172,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7123168706893921,
+      "mean_score": 0.3737155795097351,
+      "topk_mean_score": 0.7116759419441223
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_895_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        202,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6217952966690063,
+      "mean_score": 0.4539055824279785,
+      "topk_mean_score": 0.6091669797897339
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_896_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        154,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6844273209571838,
+      "mean_score": 0.4444774389266968,
+      "topk_mean_score": 0.6638194918632507
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_897_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        59,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.006330634467303753,
+      "mean_score": 0.0030748851131647825,
+      "topk_mean_score": 0.00504288449883461
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_898_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        67,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.042621687054634094,
+      "mean_score": 0.013523326255381107,
+      "topk_mean_score": 0.03461911901831627
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_899_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        92,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00955604575574398,
+      "mean_score": 0.003981600049883127,
+      "topk_mean_score": 0.007903254590928555
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_900_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        97,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.6930311918258667,
+      "mean_score": 0.43309298157691956,
+      "topk_mean_score": 0.6719298362731934
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_901_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        78,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.875555157661438,
+      "mean_score": 0.5829694271087646,
+      "topk_mean_score": 0.8748555183410645
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_902_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        93,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5856120586395264,
+      "mean_score": 0.3510589301586151,
+      "topk_mean_score": 0.5765109062194824
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_903_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        53,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3363799452781677,
+      "mean_score": 0.23692573606967926,
+      "topk_mean_score": 0.33112767338752747
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_904_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        61,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3640407919883728,
+      "mean_score": 0.22910428047180176,
+      "topk_mean_score": 0.34748658537864685
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_905_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        80,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3477131724357605,
+      "mean_score": 0.24569398164749146,
+      "topk_mean_score": 0.33353376388549805
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_906_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        46,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.4474734663963318,
+      "mean_score": 0.3191830515861511,
+      "topk_mean_score": 0.4449350833892822
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_907_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        40,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.15016591548919678,
+      "mean_score": 0.0876307338476181,
+      "topk_mean_score": 0.1458463817834854
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_908_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        60,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.34438765048980713,
+      "mean_score": 0.21314412355422974,
+      "topk_mean_score": 0.33129414916038513
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_909_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        58,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3616389036178589,
+      "mean_score": 0.09939034283161163,
+      "topk_mean_score": 0.30307427048683167
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_910_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        38,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.48143962025642395,
+      "mean_score": 0.1568765938282013,
+      "topk_mean_score": 0.42958202958106995
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_911_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        52,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.2113313376903534,
+      "mean_score": 0.12799012660980225,
+      "topk_mean_score": 0.20072229206562042
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_912_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        50,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.310085654258728,
+      "mean_score": 0.18213634192943573,
+      "topk_mean_score": 0.30115583539009094
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_913_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        41,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.7019409537315369,
+      "mean_score": 0.5010204315185547,
+      "topk_mean_score": 0.6930928826332092
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_914_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        59,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.11895667761564255,
+      "mean_score": 0.07092636823654175,
+      "topk_mean_score": 0.10918590426445007
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_915_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        83,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.23057137429714203,
+      "mean_score": 0.1084381714463234,
+      "topk_mean_score": 0.21519219875335693
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_923_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        1215,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.05174652114510536,
+      "mean_score": 0.036726973950862885,
+      "topk_mean_score": 0.0502939336001873
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_924_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        7200,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.5547990202903748,
+      "mean_score": 0.337375283241272,
+      "topk_mean_score": 0.5466588139533997
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_925_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        516,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8947255611419678,
+      "mean_score": 0.7040419578552246,
+      "topk_mean_score": 0.8863666653633118
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_926_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        120,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.10414701700210571,
+      "mean_score": 0.06512907147407532,
+      "topk_mean_score": 0.09465760737657547
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_927_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        109,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.29570478200912476,
+      "mean_score": 0.14600223302841187,
+      "topk_mean_score": 0.255289763212204
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_928_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        62,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00702305231243372,
+      "mean_score": 0.0022187819704413414,
+      "topk_mean_score": 0.0062988921999931335
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_929_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        62,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.04636675491929054,
+      "mean_score": 0.02778720110654831,
+      "topk_mean_score": 0.043541714549064636
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_930_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        213,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.00475314911454916,
+      "mean_score": 0.0023864051327109337,
+      "topk_mean_score": 0.0038511762395501137
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_931_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        118,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.07246562838554382,
+      "mean_score": 0.04893232509493828,
+      "topk_mean_score": 0.06925687193870544
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_932_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        119,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3270486295223236,
+      "mean_score": 0.20885731279850006,
+      "topk_mean_score": 0.3251321017742157
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_933_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        119,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.05350475758314133,
+      "mean_score": 0.023728452622890472,
+      "topk_mean_score": 0.050174396485090256
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_934_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        118,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.1461203545331955,
+      "mean_score": 0.04566597938537598,
+      "topk_mean_score": 0.13160200417041779
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_935_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        7200,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.04405432194471359,
+      "mean_score": 0.030861197039484978,
+      "topk_mean_score": 0.043037015944719315
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_936_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        77,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.10356361418962479,
+      "mean_score": 0.054406777024269104,
+      "topk_mean_score": 0.10113837569952011
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_937_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        77,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.10969503968954086,
+      "mean_score": 0.055801086127758026,
+      "topk_mean_score": 0.10857298970222473
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_938_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        322,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.23128364980220795,
+      "mean_score": 0.09094098210334778,
+      "topk_mean_score": 0.21417246758937836
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_939_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        54,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.13228163123130798,
+      "mean_score": 0.041912566870450974,
+      "topk_mean_score": 0.11713392287492752
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_940_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        2402,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.25880908966064453,
+      "mean_score": 0.14250798523426056,
+      "topk_mean_score": 0.2514907419681549
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_941_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        135,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.007160561624914408,
+      "mean_score": 0.002348116133362055,
+      "topk_mean_score": 0.005182141438126564
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_943_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        68,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.3882327079772949,
+      "mean_score": 0.13652141392230988,
+      "topk_mean_score": 0.38121604919433594
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Testing_Normal_Videos_Anomaly\\Normal_Videos_944_x264.npy",
+      "label": 0,
+      "label_name": "normal",
+      "raw_shape": [
+        478,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.0015485333278775215,
+      "mean_score": 0.00019946327665820718,
+      "topk_mean_score": 0.0008568291086703539
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Vandalism\\Vandalism007_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        77,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9745804667472839,
+      "mean_score": 0.8108736872673035,
+      "topk_mean_score": 0.974003255367279
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Vandalism\\Vandalism015_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        199,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8328273892402649,
+      "mean_score": 0.6848728656768799,
+      "topk_mean_score": 0.8316619396209717
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Vandalism\\Vandalism017_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        68,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.9258043766021729,
+      "mean_score": 0.7631714344024658,
+      "topk_mean_score": 0.9240729808807373
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Vandalism\\Vandalism028_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        300,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.832544207572937,
+      "mean_score": 0.6399435997009277,
+      "topk_mean_score": 0.8157827258110046
+    },
+    {
+      "file": "data\\ucf\\features\\test\\Vandalism\\Vandalism036_x264.npy",
+      "label": 1,
+      "label_name": "abnormal",
+      "raw_shape": [
+        97,
+        512
+      ],
+      "processed_shape": [
+        32,
+        512
+      ],
+      "num_scores": 32,
+      "max_score": 0.8325693011283875,
+      "mean_score": 0.5391219258308411,
+      "topk_mean_score": 0.8163701891899109
+    }
+  ]
+}

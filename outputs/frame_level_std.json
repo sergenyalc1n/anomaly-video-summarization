@@ -1,0 +1,2041 @@
+{
+  "frame_level_roc_auc": 0.8105211021217944,
+  "frame_level_average_precision": 0.22157667124382724,
+  "videos_used": 290,
+  "total_frames": 1111808,
+  "anomalous_frames": 84331,
+  "missing_feature": [],
+  "missing_frame_count": [],
+  "per_video": [
+    {
+      "stem": "Abuse028_x264",
+      "class": "Abuse",
+      "n_frames": 1412,
+      "anomalous_frames": 76,
+      "max_score": 0.9999760389328003
+    },
+    {
+      "stem": "Abuse030_x264",
+      "class": "Abuse",
+      "n_frames": 1544,
+      "anomalous_frames": 86,
+      "max_score": 0.9999974966049194
+    },
+    {
+      "stem": "Arrest001_x264",
+      "class": "Arrest",
+      "n_frames": 2374,
+      "anomalous_frames": 301,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Arrest007_x264",
+      "class": "Arrest",
+      "n_frames": 3144,
+      "anomalous_frames": 631,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Arrest024_x264",
+      "class": "Arrest",
+      "n_frames": 3629,
+      "anomalous_frames": 2101,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Arrest030_x264",
+      "class": "Arrest",
+      "n_frames": 8642,
+      "anomalous_frames": 1666,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Arrest039_x264",
+      "class": "Arrest",
+      "n_frames": 15835,
+      "anomalous_frames": 3121,
+      "max_score": 0.9798390865325928
+    },
+    {
+      "stem": "Arson007_x264",
+      "class": "Arson",
+      "n_frames": 6252,
+      "anomalous_frames": 3451,
+      "max_score": 0.9976988434791565
+    },
+    {
+      "stem": "Arson009_x264",
+      "class": "Arson",
+      "n_frames": 743,
+      "anomalous_frames": 96,
+      "max_score": 0.9999918937683105
+    },
+    {
+      "stem": "Arson010_x264",
+      "class": "Arson",
+      "n_frames": 3159,
+      "anomalous_frames": 346,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Arson011_x264",
+      "class": "Arson",
+      "n_frames": 1266,
+      "anomalous_frames": 857,
+      "max_score": 0.9999815225601196
+    },
+    {
+      "stem": "Arson016_x264",
+      "class": "Arson",
+      "n_frames": 1795,
+      "anomalous_frames": 795,
+      "max_score": 0.9999825954437256
+    },
+    {
+      "stem": "Arson018_x264",
+      "class": "Arson",
+      "n_frames": 842,
+      "anomalous_frames": 331,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Arson022_x264",
+      "class": "Arson",
+      "n_frames": 8640,
+      "anomalous_frames": 501,
+      "max_score": 0.9999926090240479
+    },
+    {
+      "stem": "Arson035_x264",
+      "class": "Arson",
+      "n_frames": 1437,
+      "anomalous_frames": 301,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Arson041_x264",
+      "class": "Arson",
+      "n_frames": 3754,
+      "anomalous_frames": 1486,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Assault006_x264",
+      "class": "Assault",
+      "n_frames": 8096,
+      "anomalous_frames": 6911,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Assault010_x264",
+      "class": "Assault",
+      "n_frames": 16177,
+      "anomalous_frames": 1022,
+      "max_score": 0.9999994039535522
+    },
+    {
+      "stem": "Assault011_x264",
+      "class": "Assault",
+      "n_frames": 2288,
+      "anomalous_frames": 586,
+      "max_score": 0.9999223947525024
+    },
+    {
+      "stem": "Burglary005_x264",
+      "class": "Burglary",
+      "n_frames": 7729,
+      "anomalous_frames": 331,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Burglary017_x264",
+      "class": "Burglary",
+      "n_frames": 2113,
+      "anomalous_frames": 451,
+      "max_score": 0.999998927116394
+    },
+    {
+      "stem": "Burglary018_x264",
+      "class": "Burglary",
+      "n_frames": 1125,
+      "anomalous_frames": 331,
+      "max_score": 0.9999934434890747
+    },
+    {
+      "stem": "Burglary021_x264",
+      "class": "Burglary",
+      "n_frames": 1537,
+      "anomalous_frames": 642,
+      "max_score": 0.9999995231628418
+    },
+    {
+      "stem": "Burglary024_x264",
+      "class": "Burglary",
+      "n_frames": 3605,
+      "anomalous_frames": 1171,
+      "max_score": 0.9999667406082153
+    },
+    {
+      "stem": "Burglary032_x264",
+      "class": "Burglary",
+      "n_frames": 15795,
+      "anomalous_frames": 2401,
+      "max_score": 0.999998927116394
+    },
+    {
+      "stem": "Burglary033_x264",
+      "class": "Burglary",
+      "n_frames": 1259,
+      "anomalous_frames": 271,
+      "max_score": 0.9999957084655762
+    },
+    {
+      "stem": "Burglary035_x264",
+      "class": "Burglary",
+      "n_frames": 4050,
+      "anomalous_frames": 1740,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Burglary037_x264",
+      "class": "Burglary",
+      "n_frames": 1920,
+      "anomalous_frames": 1412,
+      "max_score": 0.9999996423721313
+    },
+    {
+      "stem": "Burglary061_x264",
+      "class": "Burglary",
+      "n_frames": 8990,
+      "anomalous_frames": 1501,
+      "max_score": 0.9303528070449829
+    },
+    {
+      "stem": "Burglary076_x264",
+      "class": "Burglary",
+      "n_frames": 12923,
+      "anomalous_frames": 2711,
+      "max_score": 0.3705613613128662
+    },
+    {
+      "stem": "Burglary079_x264",
+      "class": "Burglary",
+      "n_frames": 14853,
+      "anomalous_frames": 2961,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Burglary092_x264",
+      "class": "Burglary",
+      "n_frames": 625,
+      "anomalous_frames": 181,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Explosion002_x264",
+      "class": "Explosion",
+      "n_frames": 4013,
+      "anomalous_frames": 601,
+      "max_score": 0.9999921321868896
+    },
+    {
+      "stem": "Explosion004_x264",
+      "class": "Explosion",
+      "n_frames": 1902,
+      "anomalous_frames": 151,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Explosion007_x264",
+      "class": "Explosion",
+      "n_frames": 16289,
+      "anomalous_frames": 691,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Explosion008_x264",
+      "class": "Explosion",
+      "n_frames": 1748,
+      "anomalous_frames": 241,
+      "max_score": 0.9999984502792358
+    },
+    {
+      "stem": "Explosion010_x264",
+      "class": "Explosion",
+      "n_frames": 2498,
+      "anomalous_frames": 796,
+      "max_score": 0.9999994039535522
+    },
+    {
+      "stem": "Explosion011_x264",
+      "class": "Explosion",
+      "n_frames": 1571,
+      "anomalous_frames": 151,
+      "max_score": 0.9998890161514282
+    },
+    {
+      "stem": "Explosion013_x264",
+      "class": "Explosion",
+      "n_frames": 3317,
+      "anomalous_frames": 451,
+      "max_score": 0.9999946355819702
+    },
+    {
+      "stem": "Explosion016_x264",
+      "class": "Explosion",
+      "n_frames": 963,
+      "anomalous_frames": 271,
+      "max_score": 0.9999974966049194
+    },
+    {
+      "stem": "Explosion017_x264",
+      "class": "Explosion",
+      "n_frames": 1643,
+      "anomalous_frames": 451,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Explosion020_x264",
+      "class": "Explosion",
+      "n_frames": 1291,
+      "anomalous_frames": 211,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Explosion021_x264",
+      "class": "Explosion",
+      "n_frames": 782,
+      "anomalous_frames": 136,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Explosion022_x264",
+      "class": "Explosion",
+      "n_frames": 3594,
+      "anomalous_frames": 191,
+      "max_score": 0.9999912977218628
+    },
+    {
+      "stem": "Explosion025_x264",
+      "class": "Explosion",
+      "n_frames": 505,
+      "anomalous_frames": 161,
+      "max_score": 0.9999958276748657
+    },
+    {
+      "stem": "Explosion027_x264",
+      "class": "Explosion",
+      "n_frames": 776,
+      "anomalous_frames": 76,
+      "max_score": 0.9982298016548157
+    },
+    {
+      "stem": "Explosion028_x264",
+      "class": "Explosion",
+      "n_frames": 1705,
+      "anomalous_frames": 421,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Explosion029_x264",
+      "class": "Explosion",
+      "n_frames": 2410,
+      "anomalous_frames": 191,
+      "max_score": 0.9682186841964722
+    },
+    {
+      "stem": "Explosion033_x264",
+      "class": "Explosion",
+      "n_frames": 3154,
+      "anomalous_frames": 1985,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Explosion035_x264",
+      "class": "Explosion",
+      "n_frames": 2865,
+      "anomalous_frames": 101,
+      "max_score": 0.9999796152114868
+    },
+    {
+      "stem": "Explosion036_x264",
+      "class": "Explosion",
+      "n_frames": 5327,
+      "anomalous_frames": 121,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Explosion039_x264",
+      "class": "Explosion",
+      "n_frames": 998,
+      "anomalous_frames": 91,
+      "max_score": 0.9999896287918091
+    },
+    {
+      "stem": "Explosion043_x264",
+      "class": "Explosion",
+      "n_frames": 7646,
+      "anomalous_frames": 141,
+      "max_score": 0.9999986886978149
+    },
+    {
+      "stem": "Fighting003_x264",
+      "class": "Fighting",
+      "n_frames": 3102,
+      "anomalous_frames": 1282,
+      "max_score": 0.9999958276748657
+    },
+    {
+      "stem": "Fighting018_x264",
+      "class": "Fighting",
+      "n_frames": 1389,
+      "anomalous_frames": 341,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Fighting033_x264",
+      "class": "Fighting",
+      "n_frames": 1105,
+      "anomalous_frames": 271,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Fighting042_x264",
+      "class": "Fighting",
+      "n_frames": 2237,
+      "anomalous_frames": 911,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Fighting047_x264",
+      "class": "Fighting",
+      "n_frames": 4459,
+      "anomalous_frames": 1631,
+      "max_score": 0.9999750852584839
+    },
+    {
+      "stem": "Normal_Videos_003_x264",
+      "class": "Normal",
+      "n_frames": 2822,
+      "anomalous_frames": 0,
+      "max_score": 0.04938867688179016
+    },
+    {
+      "stem": "Normal_Videos_006_x264",
+      "class": "Normal",
+      "n_frames": 450,
+      "anomalous_frames": 0,
+      "max_score": 0.022330177947878838
+    },
+    {
+      "stem": "Normal_Videos_010_x264",
+      "class": "Normal",
+      "n_frames": 1053,
+      "anomalous_frames": 0,
+      "max_score": 0.9995254278182983
+    },
+    {
+      "stem": "Normal_Videos_014_x264",
+      "class": "Normal",
+      "n_frames": 1499,
+      "anomalous_frames": 0,
+      "max_score": 0.030164174735546112
+    },
+    {
+      "stem": "Normal_Videos_015_x264",
+      "class": "Normal",
+      "n_frames": 480,
+      "anomalous_frames": 0,
+      "max_score": 0.0006942280451767147
+    },
+    {
+      "stem": "Normal_Videos_018_x264",
+      "class": "Normal",
+      "n_frames": 1181,
+      "anomalous_frames": 0,
+      "max_score": 0.010678050108253956
+    },
+    {
+      "stem": "Normal_Videos_019_x264",
+      "class": "Normal",
+      "n_frames": 2843,
+      "anomalous_frames": 0,
+      "max_score": 0.001211998867802322
+    },
+    {
+      "stem": "Normal_Videos_024_x264",
+      "class": "Normal",
+      "n_frames": 1076,
+      "anomalous_frames": 0,
+      "max_score": 0.0023426932748407125
+    },
+    {
+      "stem": "Normal_Videos_025_x264",
+      "class": "Normal",
+      "n_frames": 602,
+      "anomalous_frames": 0,
+      "max_score": 0.00020561589917633682
+    },
+    {
+      "stem": "Normal_Videos_027_x264",
+      "class": "Normal",
+      "n_frames": 4922,
+      "anomalous_frames": 0,
+      "max_score": 0.0015577430604025722
+    },
+    {
+      "stem": "Normal_Videos_033_x264",
+      "class": "Normal",
+      "n_frames": 1680,
+      "anomalous_frames": 0,
+      "max_score": 0.0041362144984304905
+    },
+    {
+      "stem": "Normal_Videos_034_x264",
+      "class": "Normal",
+      "n_frames": 1318,
+      "anomalous_frames": 0,
+      "max_score": 0.0015184342628344893
+    },
+    {
+      "stem": "Normal_Videos_041_x264",
+      "class": "Normal",
+      "n_frames": 1269,
+      "anomalous_frames": 0,
+      "max_score": 0.00013944473175797611
+    },
+    {
+      "stem": "Normal_Videos_042_x264",
+      "class": "Normal",
+      "n_frames": 3154,
+      "anomalous_frames": 0,
+      "max_score": 2.0482066247495823e-05
+    },
+    {
+      "stem": "Normal_Videos_048_x264",
+      "class": "Normal",
+      "n_frames": 1650,
+      "anomalous_frames": 0,
+      "max_score": 0.005234881769865751
+    },
+    {
+      "stem": "Normal_Videos_050_x264",
+      "class": "Normal",
+      "n_frames": 4198,
+      "anomalous_frames": 0,
+      "max_score": 0.04505230113863945
+    },
+    {
+      "stem": "Normal_Videos_051_x264",
+      "class": "Normal",
+      "n_frames": 2358,
+      "anomalous_frames": 0,
+      "max_score": 0.020015569403767586
+    },
+    {
+      "stem": "Normal_Videos_056_x264",
+      "class": "Normal",
+      "n_frames": 1572,
+      "anomalous_frames": 0,
+      "max_score": 0.9336552023887634
+    },
+    {
+      "stem": "Normal_Videos_059_x264",
+      "class": "Normal",
+      "n_frames": 1835,
+      "anomalous_frames": 0,
+      "max_score": 0.009772153571248055
+    },
+    {
+      "stem": "Normal_Videos_063_x264",
+      "class": "Normal",
+      "n_frames": 355,
+      "anomalous_frames": 0,
+      "max_score": 0.00047055832692421973
+    },
+    {
+      "stem": "Normal_Videos_067_x264",
+      "class": "Normal",
+      "n_frames": 1068,
+      "anomalous_frames": 0,
+      "max_score": 0.010004697367548943
+    },
+    {
+      "stem": "Normal_Videos_070_x264",
+      "class": "Normal",
+      "n_frames": 993,
+      "anomalous_frames": 0,
+      "max_score": 0.0007203922723419964
+    },
+    {
+      "stem": "Normal_Videos_100_x264",
+      "class": "Normal",
+      "n_frames": 627,
+      "anomalous_frames": 0,
+      "max_score": 0.00019858161977026612
+    },
+    {
+      "stem": "Normal_Videos_129_x264",
+      "class": "Normal",
+      "n_frames": 467,
+      "anomalous_frames": 0,
+      "max_score": 0.005474786274135113
+    },
+    {
+      "stem": "Normal_Videos_150_x264",
+      "class": "Normal",
+      "n_frames": 864,
+      "anomalous_frames": 0,
+      "max_score": 0.0013064550003036857
+    },
+    {
+      "stem": "Normal_Videos_168_x264",
+      "class": "Normal",
+      "n_frames": 1740,
+      "anomalous_frames": 0,
+      "max_score": 0.04152161255478859
+    },
+    {
+      "stem": "Normal_Videos_175_x264",
+      "class": "Normal",
+      "n_frames": 8847,
+      "anomalous_frames": 0,
+      "max_score": 0.9944201111793518
+    },
+    {
+      "stem": "Normal_Videos_182_x264",
+      "class": "Normal",
+      "n_frames": 4094,
+      "anomalous_frames": 0,
+      "max_score": 0.0019790262449532747
+    },
+    {
+      "stem": "Normal_Videos_189_x264",
+      "class": "Normal",
+      "n_frames": 737,
+      "anomalous_frames": 0,
+      "max_score": 0.9999988079071045
+    },
+    {
+      "stem": "Normal_Videos_196_x264",
+      "class": "Normal",
+      "n_frames": 2004,
+      "anomalous_frames": 0,
+      "max_score": 0.003683300456032157
+    },
+    {
+      "stem": "Normal_Videos_203_x264",
+      "class": "Normal",
+      "n_frames": 2571,
+      "anomalous_frames": 0,
+      "max_score": 0.03995922580361366
+    },
+    {
+      "stem": "Normal_Videos_210_x264",
+      "class": "Normal",
+      "n_frames": 5408,
+      "anomalous_frames": 0,
+      "max_score": 0.02064177580177784
+    },
+    {
+      "stem": "Normal_Videos_217_x264",
+      "class": "Normal",
+      "n_frames": 1817,
+      "anomalous_frames": 0,
+      "max_score": 0.0036695997696369886
+    },
+    {
+      "stem": "Normal_Videos_224_x264",
+      "class": "Normal",
+      "n_frames": 6958,
+      "anomalous_frames": 0,
+      "max_score": 0.9993448853492737
+    },
+    {
+      "stem": "Normal_Videos_246_x264",
+      "class": "Normal",
+      "n_frames": 4993,
+      "anomalous_frames": 0,
+      "max_score": 0.999993085861206
+    },
+    {
+      "stem": "Normal_Videos_247_x264",
+      "class": "Normal",
+      "n_frames": 8211,
+      "anomalous_frames": 0,
+      "max_score": 0.004599610343575478
+    },
+    {
+      "stem": "Normal_Videos_248_x264",
+      "class": "Normal",
+      "n_frames": 1140,
+      "anomalous_frames": 0,
+      "max_score": 0.0037731060292571783
+    },
+    {
+      "stem": "Normal_Videos_251_x264",
+      "class": "Normal",
+      "n_frames": 405,
+      "anomalous_frames": 0,
+      "max_score": 0.9999597072601318
+    },
+    {
+      "stem": "Normal_Videos_289_x264",
+      "class": "Normal",
+      "n_frames": 863,
+      "anomalous_frames": 0,
+      "max_score": 0.34776338934898376
+    },
+    {
+      "stem": "Normal_Videos_310_x264",
+      "class": "Normal",
+      "n_frames": 2518,
+      "anomalous_frames": 0,
+      "max_score": 0.00026834849268198013
+    },
+    {
+      "stem": "Normal_Videos_312_x264",
+      "class": "Normal",
+      "n_frames": 1261,
+      "anomalous_frames": 0,
+      "max_score": 0.0008123019943013787
+    },
+    {
+      "stem": "Normal_Videos_317_x264",
+      "class": "Normal",
+      "n_frames": 929,
+      "anomalous_frames": 0,
+      "max_score": 0.00026522751431912184
+    },
+    {
+      "stem": "Normal_Videos_345_x264",
+      "class": "Normal",
+      "n_frames": 209,
+      "anomalous_frames": 0,
+      "max_score": 0.0033048808109015226
+    },
+    {
+      "stem": "Normal_Videos_352_x264",
+      "class": "Normal",
+      "n_frames": 5403,
+      "anomalous_frames": 0,
+      "max_score": 0.00119181745685637
+    },
+    {
+      "stem": "Normal_Videos_360_x264",
+      "class": "Normal",
+      "n_frames": 984,
+      "anomalous_frames": 0,
+      "max_score": 0.034064438194036484
+    },
+    {
+      "stem": "Normal_Videos_365_x264",
+      "class": "Normal",
+      "n_frames": 6626,
+      "anomalous_frames": 0,
+      "max_score": 0.0009018033160828054
+    },
+    {
+      "stem": "Normal_Videos_401_x264",
+      "class": "Normal",
+      "n_frames": 1626,
+      "anomalous_frames": 0,
+      "max_score": 0.00033786665881052613
+    },
+    {
+      "stem": "Normal_Videos_417_x264",
+      "class": "Normal",
+      "n_frames": 1077,
+      "anomalous_frames": 0,
+      "max_score": 0.0004501771763898432
+    },
+    {
+      "stem": "Normal_Videos_439_x264",
+      "class": "Normal",
+      "n_frames": 4226,
+      "anomalous_frames": 0,
+      "max_score": 0.001030296552926302
+    },
+    {
+      "stem": "Normal_Videos_452_x264",
+      "class": "Normal",
+      "n_frames": 443,
+      "anomalous_frames": 0,
+      "max_score": 0.004729861859232187
+    },
+    {
+      "stem": "Normal_Videos_453_x264",
+      "class": "Normal",
+      "n_frames": 5322,
+      "anomalous_frames": 0,
+      "max_score": 0.0011101823765784502
+    },
+    {
+      "stem": "Normal_Videos_478_x264",
+      "class": "Normal",
+      "n_frames": 4502,
+      "anomalous_frames": 0,
+      "max_score": 0.9962007403373718
+    },
+    {
+      "stem": "Normal_Videos_576_x264",
+      "class": "Normal",
+      "n_frames": 11275,
+      "anomalous_frames": 0,
+      "max_score": 0.18419507145881653
+    },
+    {
+      "stem": "Normal_Videos_597_x264",
+      "class": "Normal",
+      "n_frames": 2229,
+      "anomalous_frames": 0,
+      "max_score": 0.00021397117234300822
+    },
+    {
+      "stem": "Normal_Videos_603_x264",
+      "class": "Normal",
+      "n_frames": 3277,
+      "anomalous_frames": 0,
+      "max_score": 3.7122928915778175e-05
+    },
+    {
+      "stem": "Normal_Videos_606_x264",
+      "class": "Normal",
+      "n_frames": 1233,
+      "anomalous_frames": 0,
+      "max_score": 0.004585696384310722
+    },
+    {
+      "stem": "Normal_Videos_621_x264",
+      "class": "Normal",
+      "n_frames": 4802,
+      "anomalous_frames": 0,
+      "max_score": 0.00034209821023978293
+    },
+    {
+      "stem": "Normal_Videos_634_x264",
+      "class": "Normal",
+      "n_frames": 13459,
+      "anomalous_frames": 0,
+      "max_score": 0.0007196341757662594
+    },
+    {
+      "stem": "Normal_Videos_641_x264",
+      "class": "Normal",
+      "n_frames": 3600,
+      "anomalous_frames": 0,
+      "max_score": 0.023116830736398697
+    },
+    {
+      "stem": "Normal_Videos_656_x264",
+      "class": "Normal",
+      "n_frames": 1815,
+      "anomalous_frames": 0,
+      "max_score": 0.00509116193279624
+    },
+    {
+      "stem": "Normal_Videos_686_x264",
+      "class": "Normal",
+      "n_frames": 2410,
+      "anomalous_frames": 0,
+      "max_score": 0.00023207774211186916
+    },
+    {
+      "stem": "Normal_Videos_696_x264",
+      "class": "Normal",
+      "n_frames": 3625,
+      "anomalous_frames": 0,
+      "max_score": 0.1598929911851883
+    },
+    {
+      "stem": "Normal_Videos_702_x264",
+      "class": "Normal",
+      "n_frames": 2523,
+      "anomalous_frames": 0,
+      "max_score": 0.00013338260760065168
+    },
+    {
+      "stem": "Normal_Videos_704_x264",
+      "class": "Normal",
+      "n_frames": 1694,
+      "anomalous_frames": 0,
+      "max_score": 0.04140273109078407
+    },
+    {
+      "stem": "Normal_Videos_710_x264",
+      "class": "Normal",
+      "n_frames": 1797,
+      "anomalous_frames": 0,
+      "max_score": 0.006108553614467382
+    },
+    {
+      "stem": "Normal_Videos_717_x264",
+      "class": "Normal",
+      "n_frames": 1255,
+      "anomalous_frames": 0,
+      "max_score": 0.00866619311273098
+    },
+    {
+      "stem": "Normal_Videos_722_x264",
+      "class": "Normal",
+      "n_frames": 8731,
+      "anomalous_frames": 0,
+      "max_score": 0.0016133323078975081
+    },
+    {
+      "stem": "Normal_Videos_725_x264",
+      "class": "Normal",
+      "n_frames": 920,
+      "anomalous_frames": 0,
+      "max_score": 0.9999990463256836
+    },
+    {
+      "stem": "Normal_Videos_745_x264",
+      "class": "Normal",
+      "n_frames": 305,
+      "anomalous_frames": 0,
+      "max_score": 0.0006510262028314173
+    },
+    {
+      "stem": "Normal_Videos_758_x264",
+      "class": "Normal",
+      "n_frames": 1589,
+      "anomalous_frames": 0,
+      "max_score": 0.0008736706804484129
+    },
+    {
+      "stem": "Normal_Videos_778_x264",
+      "class": "Normal",
+      "n_frames": 1262,
+      "anomalous_frames": 0,
+      "max_score": 0.0008696871809661388
+    },
+    {
+      "stem": "Normal_Videos_780_x264",
+      "class": "Normal",
+      "n_frames": 2021,
+      "anomalous_frames": 0,
+      "max_score": 0.00028105429373681545
+    },
+    {
+      "stem": "Normal_Videos_781_x264",
+      "class": "Normal",
+      "n_frames": 3975,
+      "anomalous_frames": 0,
+      "max_score": 0.0002634911797940731
+    },
+    {
+      "stem": "Normal_Videos_782_x264",
+      "class": "Normal",
+      "n_frames": 5543,
+      "anomalous_frames": 0,
+      "max_score": 0.00029309411183930933
+    },
+    {
+      "stem": "Normal_Videos_783_x264",
+      "class": "Normal",
+      "n_frames": 9590,
+      "anomalous_frames": 0,
+      "max_score": 0.000255622057011351
+    },
+    {
+      "stem": "Normal_Videos_798_x264",
+      "class": "Normal",
+      "n_frames": 6001,
+      "anomalous_frames": 0,
+      "max_score": 0.00014473521150648594
+    },
+    {
+      "stem": "Normal_Videos_801_x264",
+      "class": "Normal",
+      "n_frames": 2744,
+      "anomalous_frames": 0,
+      "max_score": 0.011734952218830585
+    },
+    {
+      "stem": "Normal_Videos_828_x264",
+      "class": "Normal",
+      "n_frames": 930,
+      "anomalous_frames": 0,
+      "max_score": 0.007875894196331501
+    },
+    {
+      "stem": "Normal_Videos_831_x264",
+      "class": "Normal",
+      "n_frames": 448,
+      "anomalous_frames": 0,
+      "max_score": 0.0001291138178203255
+    },
+    {
+      "stem": "Normal_Videos_866_x264",
+      "class": "Normal",
+      "n_frames": 1198,
+      "anomalous_frames": 0,
+      "max_score": 0.0015641319332644343
+    },
+    {
+      "stem": "Normal_Videos_867_x264",
+      "class": "Normal",
+      "n_frames": 624,
+      "anomalous_frames": 0,
+      "max_score": 0.02189112827181816
+    },
+    {
+      "stem": "Normal_Videos_868_x264",
+      "class": "Normal",
+      "n_frames": 2401,
+      "anomalous_frames": 0,
+      "max_score": 0.054381705820560455
+    },
+    {
+      "stem": "Normal_Videos_869_x264",
+      "class": "Normal",
+      "n_frames": 2401,
+      "anomalous_frames": 0,
+      "max_score": 0.0003951630205847323
+    },
+    {
+      "stem": "Normal_Videos_870_x264",
+      "class": "Normal",
+      "n_frames": 601,
+      "anomalous_frames": 0,
+      "max_score": 0.0002070222544716671
+    },
+    {
+      "stem": "Normal_Videos_871_x264",
+      "class": "Normal",
+      "n_frames": 4358,
+      "anomalous_frames": 0,
+      "max_score": 0.003535743337124586
+    },
+    {
+      "stem": "Normal_Videos_872_x264",
+      "class": "Normal",
+      "n_frames": 530,
+      "anomalous_frames": 0,
+      "max_score": 0.03878723829984665
+    },
+    {
+      "stem": "Normal_Videos_873_x264",
+      "class": "Normal",
+      "n_frames": 1799,
+      "anomalous_frames": 0,
+      "max_score": 0.00012185253581264988
+    },
+    {
+      "stem": "Normal_Videos_874_x264",
+      "class": "Normal",
+      "n_frames": 4226,
+      "anomalous_frames": 0,
+      "max_score": 0.0014865465927869081
+    },
+    {
+      "stem": "Normal_Videos_875_x264",
+      "class": "Normal",
+      "n_frames": 2565,
+      "anomalous_frames": 0,
+      "max_score": 0.1263308972120285
+    },
+    {
+      "stem": "Normal_Videos_876_x264",
+      "class": "Normal",
+      "n_frames": 351,
+      "anomalous_frames": 0,
+      "max_score": 0.0006292798207141459
+    },
+    {
+      "stem": "Normal_Videos_877_x264",
+      "class": "Normal",
+      "n_frames": 10025,
+      "anomalous_frames": 0,
+      "max_score": 0.0009392165811732411
+    },
+    {
+      "stem": "Normal_Videos_878_x264",
+      "class": "Normal",
+      "n_frames": 265,
+      "anomalous_frames": 0,
+      "max_score": 0.9999996423721313
+    },
+    {
+      "stem": "Normal_Videos_879_x264",
+      "class": "Normal",
+      "n_frames": 1143,
+      "anomalous_frames": 0,
+      "max_score": 0.0006014468963257968
+    },
+    {
+      "stem": "Normal_Videos_880_x264",
+      "class": "Normal",
+      "n_frames": 18054,
+      "anomalous_frames": 0,
+      "max_score": 0.00721340999007225
+    },
+    {
+      "stem": "Normal_Videos_881_x264",
+      "class": "Normal",
+      "n_frames": 224,
+      "anomalous_frames": 0,
+      "max_score": 0.0018200573977082968
+    },
+    {
+      "stem": "Normal_Videos_882_x264",
+      "class": "Normal",
+      "n_frames": 1654,
+      "anomalous_frames": 0,
+      "max_score": 0.012631144374608994
+    },
+    {
+      "stem": "Normal_Videos_883_x264",
+      "class": "Normal",
+      "n_frames": 326,
+      "anomalous_frames": 0,
+      "max_score": 0.9999856948852539
+    },
+    {
+      "stem": "Normal_Videos_884_x264",
+      "class": "Normal",
+      "n_frames": 9029,
+      "anomalous_frames": 0,
+      "max_score": 0.48389318585395813
+    },
+    {
+      "stem": "Normal_Videos_885_x264",
+      "class": "Normal",
+      "n_frames": 474,
+      "anomalous_frames": 0,
+      "max_score": 4.8492103815078735e-05
+    },
+    {
+      "stem": "Normal_Videos_886_x264",
+      "class": "Normal",
+      "n_frames": 2747,
+      "anomalous_frames": 0,
+      "max_score": 9.658740600571036e-05
+    },
+    {
+      "stem": "Normal_Videos_887_x264",
+      "class": "Normal",
+      "n_frames": 7630,
+      "anomalous_frames": 0,
+      "max_score": 0.9966475367546082
+    },
+    {
+      "stem": "Normal_Videos_888_x264",
+      "class": "Normal",
+      "n_frames": 574,
+      "anomalous_frames": 0,
+      "max_score": 0.0023567236494272947
+    },
+    {
+      "stem": "Normal_Videos_889_x264",
+      "class": "Normal",
+      "n_frames": 314,
+      "anomalous_frames": 0,
+      "max_score": 0.00020712926925625652
+    },
+    {
+      "stem": "Normal_Videos_890_x264",
+      "class": "Normal",
+      "n_frames": 3579,
+      "anomalous_frames": 0,
+      "max_score": 0.00018316002388019115
+    },
+    {
+      "stem": "Normal_Videos_891_x264",
+      "class": "Normal",
+      "n_frames": 1800,
+      "anomalous_frames": 0,
+      "max_score": 0.0001342805044259876
+    },
+    {
+      "stem": "Normal_Videos_892_x264",
+      "class": "Normal",
+      "n_frames": 1770,
+      "anomalous_frames": 0,
+      "max_score": 0.000508986646309495
+    },
+    {
+      "stem": "Normal_Videos_893_x264",
+      "class": "Normal",
+      "n_frames": 6374,
+      "anomalous_frames": 0,
+      "max_score": 0.024206753820180893
+    },
+    {
+      "stem": "Normal_Videos_894_x264",
+      "class": "Normal",
+      "n_frames": 2575,
+      "anomalous_frames": 0,
+      "max_score": 0.9879319071769714
+    },
+    {
+      "stem": "Normal_Videos_895_x264",
+      "class": "Normal",
+      "n_frames": 3030,
+      "anomalous_frames": 0,
+      "max_score": 0.9221776127815247
+    },
+    {
+      "stem": "Normal_Videos_896_x264",
+      "class": "Normal",
+      "n_frames": 2303,
+      "anomalous_frames": 0,
+      "max_score": 0.06655871868133545
+    },
+    {
+      "stem": "Normal_Videos_897_x264",
+      "class": "Normal",
+      "n_frames": 875,
+      "anomalous_frames": 0,
+      "max_score": 0.0006459231371991336
+    },
+    {
+      "stem": "Normal_Videos_898_x264",
+      "class": "Normal",
+      "n_frames": 1005,
+      "anomalous_frames": 0,
+      "max_score": 0.0019927010871469975
+    },
+    {
+      "stem": "Normal_Videos_899_x264",
+      "class": "Normal",
+      "n_frames": 1380,
+      "anomalous_frames": 0,
+      "max_score": 0.004727644845843315
+    },
+    {
+      "stem": "Normal_Videos_900_x264",
+      "class": "Normal",
+      "n_frames": 1455,
+      "anomalous_frames": 0,
+      "max_score": 0.9883132576942444
+    },
+    {
+      "stem": "Normal_Videos_901_x264",
+      "class": "Normal",
+      "n_frames": 1170,
+      "anomalous_frames": 0,
+      "max_score": 0.9999945163726807
+    },
+    {
+      "stem": "Normal_Videos_902_x264",
+      "class": "Normal",
+      "n_frames": 1384,
+      "anomalous_frames": 0,
+      "max_score": 0.9982302784919739
+    },
+    {
+      "stem": "Normal_Videos_903_x264",
+      "class": "Normal",
+      "n_frames": 790,
+      "anomalous_frames": 0,
+      "max_score": 0.01482323370873928
+    },
+    {
+      "stem": "Normal_Videos_904_x264",
+      "class": "Normal",
+      "n_frames": 908,
+      "anomalous_frames": 0,
+      "max_score": 0.006342214532196522
+    },
+    {
+      "stem": "Normal_Videos_905_x264",
+      "class": "Normal",
+      "n_frames": 1196,
+      "anomalous_frames": 0,
+      "max_score": 0.02648330107331276
+    },
+    {
+      "stem": "Normal_Videos_906_x264",
+      "class": "Normal",
+      "n_frames": 676,
+      "anomalous_frames": 0,
+      "max_score": 0.032965950667858124
+    },
+    {
+      "stem": "Normal_Videos_907_x264",
+      "class": "Normal",
+      "n_frames": 598,
+      "anomalous_frames": 0,
+      "max_score": 0.0006991359405219555
+    },
+    {
+      "stem": "Normal_Videos_908_x264",
+      "class": "Normal",
+      "n_frames": 889,
+      "anomalous_frames": 0,
+      "max_score": 0.02160622738301754
+    },
+    {
+      "stem": "Normal_Videos_909_x264",
+      "class": "Normal",
+      "n_frames": 870,
+      "anomalous_frames": 0,
+      "max_score": 0.010498914867639542
+    },
+    {
+      "stem": "Normal_Videos_910_x264",
+      "class": "Normal",
+      "n_frames": 567,
+      "anomalous_frames": 0,
+      "max_score": 0.9875770807266235
+    },
+    {
+      "stem": "Normal_Videos_911_x264",
+      "class": "Normal",
+      "n_frames": 776,
+      "anomalous_frames": 0,
+      "max_score": 0.0818929672241211
+    },
+    {
+      "stem": "Normal_Videos_912_x264",
+      "class": "Normal",
+      "n_frames": 746,
+      "anomalous_frames": 0,
+      "max_score": 0.5335167646408081
+    },
+    {
+      "stem": "Normal_Videos_913_x264",
+      "class": "Normal",
+      "n_frames": 609,
+      "anomalous_frames": 0,
+      "max_score": 0.82351154088974
+    },
+    {
+      "stem": "Normal_Videos_914_x264",
+      "class": "Normal",
+      "n_frames": 880,
+      "anomalous_frames": 0,
+      "max_score": 0.00041037294431589544
+    },
+    {
+      "stem": "Normal_Videos_915_x264",
+      "class": "Normal",
+      "n_frames": 1245,
+      "anomalous_frames": 0,
+      "max_score": 0.00664067268371582
+    },
+    {
+      "stem": "Normal_Videos_923_x264",
+      "class": "Normal",
+      "n_frames": 18224,
+      "anomalous_frames": 0,
+      "max_score": 0.0003433625097386539
+    },
+    {
+      "stem": "Normal_Videos_924_x264",
+      "class": "Normal",
+      "n_frames": 107997,
+      "anomalous_frames": 0,
+      "max_score": 0.9906331300735474
+    },
+    {
+      "stem": "Normal_Videos_925_x264",
+      "class": "Normal",
+      "n_frames": 7726,
+      "anomalous_frames": 0,
+      "max_score": 0.9999986886978149
+    },
+    {
+      "stem": "Normal_Videos_926_x264",
+      "class": "Normal",
+      "n_frames": 1796,
+      "anomalous_frames": 0,
+      "max_score": 9.610984125174582e-05
+    },
+    {
+      "stem": "Normal_Videos_927_x264",
+      "class": "Normal",
+      "n_frames": 1633,
+      "anomalous_frames": 0,
+      "max_score": 0.0007692339713685215
+    },
+    {
+      "stem": "Normal_Videos_928_x264",
+      "class": "Normal",
+      "n_frames": 918,
+      "anomalous_frames": 0,
+      "max_score": 0.00014526060840580612
+    },
+    {
+      "stem": "Normal_Videos_929_x264",
+      "class": "Normal",
+      "n_frames": 924,
+      "anomalous_frames": 0,
+      "max_score": 0.006360297091305256
+    },
+    {
+      "stem": "Normal_Videos_930_x264",
+      "class": "Normal",
+      "n_frames": 3187,
+      "anomalous_frames": 0,
+      "max_score": 0.0006069945520721376
+    },
+    {
+      "stem": "Normal_Videos_931_x264",
+      "class": "Normal",
+      "n_frames": 1765,
+      "anomalous_frames": 0,
+      "max_score": 0.0013741381699219346
+    },
+    {
+      "stem": "Normal_Videos_932_x264",
+      "class": "Normal",
+      "n_frames": 1784,
+      "anomalous_frames": 0,
+      "max_score": 0.0015460955910384655
+    },
+    {
+      "stem": "Normal_Videos_933_x264",
+      "class": "Normal",
+      "n_frames": 1771,
+      "anomalous_frames": 0,
+      "max_score": 0.00107076286803931
+    },
+    {
+      "stem": "Normal_Videos_934_x264",
+      "class": "Normal",
+      "n_frames": 1765,
+      "anomalous_frames": 0,
+      "max_score": 0.0013208279851824045
+    },
+    {
+      "stem": "Normal_Videos_935_x264",
+      "class": "Normal",
+      "n_frames": 107994,
+      "anomalous_frames": 0,
+      "max_score": 0.006338099017739296
+    },
+    {
+      "stem": "Normal_Videos_936_x264",
+      "class": "Normal",
+      "n_frames": 1150,
+      "anomalous_frames": 0,
+      "max_score": 0.03794535994529724
+    },
+    {
+      "stem": "Normal_Videos_937_x264",
+      "class": "Normal",
+      "n_frames": 1150,
+      "anomalous_frames": 0,
+      "max_score": 0.03638651221990585
+    },
+    {
+      "stem": "Normal_Videos_938_x264",
+      "class": "Normal",
+      "n_frames": 4827,
+      "anomalous_frames": 0,
+      "max_score": 0.004777711350470781
+    },
+    {
+      "stem": "Normal_Videos_939_x264",
+      "class": "Normal",
+      "n_frames": 801,
+      "anomalous_frames": 0,
+      "max_score": 0.000896560843102634
+    },
+    {
+      "stem": "Normal_Videos_940_x264",
+      "class": "Normal",
+      "n_frames": 36017,
+      "anomalous_frames": 0,
+      "max_score": 0.9999165534973145
+    },
+    {
+      "stem": "Normal_Videos_941_x264",
+      "class": "Normal",
+      "n_frames": 2020,
+      "anomalous_frames": 0,
+      "max_score": 0.032849520444869995
+    },
+    {
+      "stem": "Normal_Videos_943_x264",
+      "class": "Normal",
+      "n_frames": 1020,
+      "anomalous_frames": 0,
+      "max_score": 0.9908263087272644
+    },
+    {
+      "stem": "Normal_Videos_944_x264",
+      "class": "Normal",
+      "n_frames": 7170,
+      "anomalous_frames": 0,
+      "max_score": 0.00026690633967518806
+    },
+    {
+      "stem": "RoadAccidents001_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1366,
+      "anomalous_frames": 91,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "RoadAccidents002_x264",
+      "class": "RoadAccidents",
+      "n_frames": 347,
+      "anomalous_frames": 61,
+      "max_score": 1.0
+    },
+    {
+      "stem": "RoadAccidents004_x264",
+      "class": "RoadAccidents",
+      "n_frames": 389,
+      "anomalous_frames": 50,
+      "max_score": 0.9703578948974609
+    },
+    {
+      "stem": "RoadAccidents009_x264",
+      "class": "RoadAccidents",
+      "n_frames": 918,
+      "anomalous_frames": 31,
+      "max_score": 0.9761406183242798
+    },
+    {
+      "stem": "RoadAccidents010_x264",
+      "class": "RoadAccidents",
+      "n_frames": 528,
+      "anomalous_frames": 41,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "RoadAccidents011_x264",
+      "class": "RoadAccidents",
+      "n_frames": 2159,
+      "anomalous_frames": 41,
+      "max_score": 0.9999955892562866
+    },
+    {
+      "stem": "RoadAccidents012_x264",
+      "class": "RoadAccidents",
+      "n_frames": 468,
+      "anomalous_frames": 141,
+      "max_score": 0.038064271211624146
+    },
+    {
+      "stem": "RoadAccidents016_x264",
+      "class": "RoadAccidents",
+      "n_frames": 2192,
+      "anomalous_frames": 191,
+      "max_score": 0.7965930104255676
+    },
+    {
+      "stem": "RoadAccidents017_x264",
+      "class": "RoadAccidents",
+      "n_frames": 243,
+      "anomalous_frames": 71,
+      "max_score": 0.9999984502792358
+    },
+    {
+      "stem": "RoadAccidents019_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1314,
+      "anomalous_frames": 151,
+      "max_score": 1.0
+    },
+    {
+      "stem": "RoadAccidents020_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1773,
+      "anomalous_frames": 121,
+      "max_score": 1.0
+    },
+    {
+      "stem": "RoadAccidents021_x264",
+      "class": "RoadAccidents",
+      "n_frames": 155,
+      "anomalous_frames": 61,
+      "max_score": 1.0
+    },
+    {
+      "stem": "RoadAccidents022_x264",
+      "class": "RoadAccidents",
+      "n_frames": 716,
+      "anomalous_frames": 101,
+      "max_score": 0.9851863980293274
+    },
+    {
+      "stem": "RoadAccidents121_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1835,
+      "anomalous_frames": 61,
+      "max_score": 1.0
+    },
+    {
+      "stem": "RoadAccidents122_x264",
+      "class": "RoadAccidents",
+      "n_frames": 647,
+      "anomalous_frames": 61,
+      "max_score": 0.999984860420227
+    },
+    {
+      "stem": "RoadAccidents123_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1005,
+      "anomalous_frames": 81,
+      "max_score": 0.9998781681060791
+    },
+    {
+      "stem": "RoadAccidents124_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1495,
+      "anomalous_frames": 171,
+      "max_score": 1.0
+    },
+    {
+      "stem": "RoadAccidents125_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1771,
+      "anomalous_frames": 111,
+      "max_score": 0.9999978542327881
+    },
+    {
+      "stem": "RoadAccidents127_x264",
+      "class": "RoadAccidents",
+      "n_frames": 2580,
+      "anomalous_frames": 141,
+      "max_score": 0.9999961853027344
+    },
+    {
+      "stem": "RoadAccidents128_x264",
+      "class": "RoadAccidents",
+      "n_frames": 565,
+      "anomalous_frames": 111,
+      "max_score": 0.9999992847442627
+    },
+    {
+      "stem": "RoadAccidents131_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1524,
+      "anomalous_frames": 61,
+      "max_score": 0.9999994039535522
+    },
+    {
+      "stem": "RoadAccidents132_x264",
+      "class": "RoadAccidents",
+      "n_frames": 1862,
+      "anomalous_frames": 101,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "RoadAccidents133_x264",
+      "class": "RoadAccidents",
+      "n_frames": 673,
+      "anomalous_frames": 181,
+      "max_score": 0.9999994039535522
+    },
+    {
+      "stem": "Robbery048_x264",
+      "class": "Robbery",
+      "n_frames": 1409,
+      "anomalous_frames": 481,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Robbery050_x264",
+      "class": "Robbery",
+      "n_frames": 1701,
+      "anomalous_frames": 916,
+      "max_score": 0.014569784514605999
+    },
+    {
+      "stem": "Robbery102_x264",
+      "class": "Robbery",
+      "n_frames": 1827,
+      "anomalous_frames": 481,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Robbery106_x264",
+      "class": "Robbery",
+      "n_frames": 1197,
+      "anomalous_frames": 121,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Robbery137_x264",
+      "class": "Robbery",
+      "n_frames": 2193,
+      "anomalous_frames": 1816,
+      "max_score": 0.9999996423721313
+    },
+    {
+      "stem": "Shooting002_x264",
+      "class": "Shooting",
+      "n_frames": 1206,
+      "anomalous_frames": 81,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Shooting004_x264",
+      "class": "Shooting",
+      "n_frames": 1793,
+      "anomalous_frames": 161,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Shooting007_x264",
+      "class": "Shooting",
+      "n_frames": 1430,
+      "anomalous_frames": 121,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Shooting008_x264",
+      "class": "Shooting",
+      "n_frames": 1625,
+      "anomalous_frames": 241,
+      "max_score": 0.999983549118042
+    },
+    {
+      "stem": "Shooting010_x264",
+      "class": "Shooting",
+      "n_frames": 2641,
+      "anomalous_frames": 166,
+      "max_score": 0.9999850988388062
+    },
+    {
+      "stem": "Shooting011_x264",
+      "class": "Shooting",
+      "n_frames": 4003,
+      "anomalous_frames": 271,
+      "max_score": 0.9999963045120239
+    },
+    {
+      "stem": "Shooting013_x264",
+      "class": "Shooting",
+      "n_frames": 1073,
+      "anomalous_frames": 86,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Shooting015_x264",
+      "class": "Shooting",
+      "n_frames": 1713,
+      "anomalous_frames": 858,
+      "max_score": 0.9999994039535522
+    },
+    {
+      "stem": "Shooting018_x264",
+      "class": "Shooting",
+      "n_frames": 1799,
+      "anomalous_frames": 166,
+      "max_score": 0.999998927116394
+    },
+    {
+      "stem": "Shooting019_x264",
+      "class": "Shooting",
+      "n_frames": 2756,
+      "anomalous_frames": 436,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Shooting021_x264",
+      "class": "Shooting",
+      "n_frames": 1275,
+      "anomalous_frames": 151,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Shooting022_x264",
+      "class": "Shooting",
+      "n_frames": 4554,
+      "anomalous_frames": 451,
+      "max_score": 0.9999991655349731
+    },
+    {
+      "stem": "Shooting024_x264",
+      "class": "Shooting",
+      "n_frames": 2003,
+      "anomalous_frames": 586,
+      "max_score": 0.9999995231628418
+    },
+    {
+      "stem": "Shooting026_x264",
+      "class": "Shooting",
+      "n_frames": 1403,
+      "anomalous_frames": 406,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Shooting028_x264",
+      "class": "Shooting",
+      "n_frames": 1898,
+      "anomalous_frames": 271,
+      "max_score": 0.9999949932098389
+    },
+    {
+      "stem": "Shooting032_x264",
+      "class": "Shooting",
+      "n_frames": 21681,
+      "anomalous_frames": 211,
+      "max_score": 0.9999988079071045
+    },
+    {
+      "stem": "Shooting033_x264",
+      "class": "Shooting",
+      "n_frames": 3630,
+      "anomalous_frames": 321,
+      "max_score": 0.9999926090240479
+    },
+    {
+      "stem": "Shooting034_x264",
+      "class": "Shooting",
+      "n_frames": 1409,
+      "anomalous_frames": 91,
+      "max_score": 0.9999842643737793
+    },
+    {
+      "stem": "Shooting037_x264",
+      "class": "Shooting",
+      "n_frames": 305,
+      "anomalous_frames": 121,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Shooting043_x264",
+      "class": "Shooting",
+      "n_frames": 1874,
+      "anomalous_frames": 286,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Shooting046_x264",
+      "class": "Shooting",
+      "n_frames": 5088,
+      "anomalous_frames": 554,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Shooting047_x264",
+      "class": "Shooting",
+      "n_frames": 8287,
+      "anomalous_frames": 3482,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Shooting048_x264",
+      "class": "Shooting",
+      "n_frames": 2741,
+      "anomalous_frames": 321,
+      "max_score": 0.03296421840786934
+    },
+    {
+      "stem": "Shoplifting001_x264",
+      "class": "Shoplifting",
+      "n_frames": 4344,
+      "anomalous_frames": 451,
+      "max_score": 0.9999997615814209
+    },
+    {
+      "stem": "Shoplifting004_x264",
+      "class": "Shoplifting",
+      "n_frames": 6673,
+      "anomalous_frames": 2701,
+      "max_score": 0.9999982118606567
+    },
+    {
+      "stem": "Shoplifting005_x264",
+      "class": "Shoplifting",
+      "n_frames": 1967,
+      "anomalous_frames": 211,
+      "max_score": 0.9999568462371826
+    },
+    {
+      "stem": "Shoplifting007_x264",
+      "class": "Shoplifting",
+      "n_frames": 5124,
+      "anomalous_frames": 502,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Shoplifting010_x264",
+      "class": "Shoplifting",
+      "n_frames": 2736,
+      "anomalous_frames": 592,
+      "max_score": 0.07917037606239319
+    },
+    {
+      "stem": "Shoplifting015_x264",
+      "class": "Shoplifting",
+      "n_frames": 2256,
+      "anomalous_frames": 151,
+      "max_score": 0.9999988079071045
+    },
+    {
+      "stem": "Shoplifting016_x264",
+      "class": "Shoplifting",
+      "n_frames": 1483,
+      "anomalous_frames": 91,
+      "max_score": 0.9999531507492065
+    },
+    {
+      "stem": "Shoplifting017_x264",
+      "class": "Shoplifting",
+      "n_frames": 457,
+      "anomalous_frames": 61,
+      "max_score": 0.9999637603759766
+    },
+    {
+      "stem": "Shoplifting020_x264",
+      "class": "Shoplifting",
+      "n_frames": 5770,
+      "anomalous_frames": 121,
+      "max_score": 0.9970179796218872
+    },
+    {
+      "stem": "Shoplifting021_x264",
+      "class": "Shoplifting",
+      "n_frames": 3551,
+      "anomalous_frames": 151,
+      "max_score": 0.9999982118606567
+    },
+    {
+      "stem": "Shoplifting022_x264",
+      "class": "Shoplifting",
+      "n_frames": 2191,
+      "anomalous_frames": 272,
+      "max_score": 0.999452531337738
+    },
+    {
+      "stem": "Shoplifting027_x264",
+      "class": "Shoplifting",
+      "n_frames": 1873,
+      "anomalous_frames": 322,
+      "max_score": 0.8267579078674316
+    },
+    {
+      "stem": "Shoplifting028_x264",
+      "class": "Shoplifting",
+      "n_frames": 1357,
+      "anomalous_frames": 271,
+      "max_score": 0.9998433589935303
+    },
+    {
+      "stem": "Shoplifting029_x264",
+      "class": "Shoplifting",
+      "n_frames": 2176,
+      "anomalous_frames": 451,
+      "max_score": 0.9994725584983826
+    },
+    {
+      "stem": "Shoplifting031_x264",
+      "class": "Shoplifting",
+      "n_frames": 447,
+      "anomalous_frames": 211,
+      "max_score": 0.9994674324989319
+    },
+    {
+      "stem": "Shoplifting033_x264",
+      "class": "Shoplifting",
+      "n_frames": 899,
+      "anomalous_frames": 121,
+      "max_score": 0.0004573157348204404
+    },
+    {
+      "stem": "Shoplifting034_x264",
+      "class": "Shoplifting",
+      "n_frames": 11937,
+      "anomalous_frames": 121,
+      "max_score": 0.99986732006073
+    },
+    {
+      "stem": "Shoplifting037_x264",
+      "class": "Shoplifting",
+      "n_frames": 1386,
+      "anomalous_frames": 61,
+      "max_score": 0.9988841414451599
+    },
+    {
+      "stem": "Shoplifting039_x264",
+      "class": "Shoplifting",
+      "n_frames": 2803,
+      "anomalous_frames": 151,
+      "max_score": 0.8528237342834473
+    },
+    {
+      "stem": "Shoplifting044_x264",
+      "class": "Shoplifting",
+      "n_frames": 14555,
+      "anomalous_frames": 181,
+      "max_score": 0.999982476234436
+    },
+    {
+      "stem": "Shoplifting049_x264",
+      "class": "Shoplifting",
+      "n_frames": 2149,
+      "anomalous_frames": 331,
+      "max_score": 0.9999923706054688
+    },
+    {
+      "stem": "Stealing019_x264",
+      "class": "Stealing",
+      "n_frames": 4911,
+      "anomalous_frames": 242,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Stealing036_x264",
+      "class": "Stealing",
+      "n_frames": 2503,
+      "anomalous_frames": 331,
+      "max_score": 0.9999995231628418
+    },
+    {
+      "stem": "Stealing058_x264",
+      "class": "Stealing",
+      "n_frames": 4991,
+      "anomalous_frames": 3091,
+      "max_score": 0.9999998807907104
+    },
+    {
+      "stem": "Stealing062_x264",
+      "class": "Stealing",
+      "n_frames": 1560,
+      "anomalous_frames": 691,
+      "max_score": 0.9999675750732422
+    },
+    {
+      "stem": "Stealing079_x264",
+      "class": "Stealing",
+      "n_frames": 5846,
+      "anomalous_frames": 1652,
+      "max_score": 0.9999631643295288
+    },
+    {
+      "stem": "Vandalism007_x264",
+      "class": "Vandalism",
+      "n_frames": 1146,
+      "anomalous_frames": 511,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Vandalism015_x264",
+      "class": "Vandalism",
+      "n_frames": 2982,
+      "anomalous_frames": 691,
+      "max_score": 0.9999974966049194
+    },
+    {
+      "stem": "Vandalism017_x264",
+      "class": "Vandalism",
+      "n_frames": 1011,
+      "anomalous_frames": 122,
+      "max_score": 1.0
+    },
+    {
+      "stem": "Vandalism028_x264",
+      "class": "Vandalism",
+      "n_frames": 4495,
+      "anomalous_frames": 422,
+      "max_score": 0.12552225589752197
+    },
+    {
+      "stem": "Vandalism036_x264",
+      "class": "Vandalism",
+      "n_frames": 1443,
+      "anomalous_frames": 332,
+      "max_score": 1.0
+    }
+  ]
+}

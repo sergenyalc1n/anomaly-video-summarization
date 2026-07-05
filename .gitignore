@@ -1,0 +1,39 @@
+# --- Python ortamları ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Veri / büyük dosyalar (repoya dahil değil) ---
+data/
+features/
+videos/
+cache/
+checkpoints/
+results/
+
+# Ön-çıkarılmış feature dökümleri (repoya dahil değil)
+UCF_Crime/meta/*_C.txt
+
+# Örnek eğri dosyaları
+fpr.npy
+tpr.npy
+precision.npy
+recall.npy
+
+# --- Çıktılar: video özetleri repoda tutulmaz, metrik CSV/JSON tutulur ---
+outputs/*.mp4
+
+# --- Rapor (public repoya dahil değil) ---
+*.docx
