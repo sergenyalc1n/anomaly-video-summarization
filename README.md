@@ -95,6 +95,10 @@ tools/build_text_prototypes_v1.py   # v1 metin prototipleri
 BULGULAR.md                # tüm bulgular ve tablolar
 ```
 
+## Lisans
+
+Bu depodaki özgün kod **MIT Lisansı** ile sunulmuştur (bkz. [LICENSE](LICENSE)). `third_party/CLIP-TSA/` dizini [CLIP-TSA](https://github.com/joos2010kj/CLIP-TSA) projesine aittir ve kendi lisans koşullarına tabidir.
+
 ## Atıf
 
 ```bibtex
